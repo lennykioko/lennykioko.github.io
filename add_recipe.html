@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles  -->
+    <link href="static/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-image">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Yummy Recipes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="recipes.html">My Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="signup.html">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><br><br>                                            
+                <form class="form-horizontal">
+                    <h2>My Recipe</h2>
+                    <div class="form-group">
+                        <label class="control-label align-content-around" for="title">Recipe Title</label>
+                        <input type="text" class="form-control" id="title" name="title" required>
+                    </div>
+                       
+                    <div class="form-group">
+                        <label class="control-label align-content-around" for="category">Recipe Category</label>                                
+                        <input type="text" class="form-control" id="category" name="category" required>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="text-heading">Recipe Description</label>
+                      <textarea class="form-control" id="description" name ="description" rows="20" required>
+
+                      </textarea>
+                    </div>
+    
+                    <div class="form-group text-center">
+                        <button class="btn btn-info btn-block" type="submit">Save Recipe</button>  
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Yummy Recipes 2018</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="static/jquery/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

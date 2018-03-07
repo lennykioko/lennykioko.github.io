@@ -1,0 +1,47 @@
+body {
+    padding-top: 56px;
+}
+
+.dark-body {
+    background-color:#1d2124;
+}
+
+footer {
+    background-color:#1d2124;
+}
+
+.jumbotron {
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.bg-cover {
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+    background-image: url('../img/spaghetti-2.jpg');
+}
+  
+.overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bg-image {
+    background-image: url('../img/spaghetti.jpg');
+    background-size: cover;
+    color:white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+}

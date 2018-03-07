@@ -8,90 +8,76 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>about</title>
+    <title>About</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-top: 54px;
-      }
-      @media (min-width: 992px) {
-        body {
-          padding-top: 56px;
-        }
-      }
-
-      .bgimage {
-        position: relative;
-        background: #fff url('img/bg.jpg') center center;   
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-size: auto;
-      } 
-
-    </style>
+    <!-- Custom styles  -->
+    <link href="static/styles.css" rel="stylesheet">
+    
 
   </head>
 
-  <body class="bgimage">
+  <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="about.html">Yummy Recipes</a>
+        <a class="navbar-brand" href="index.html">Yummy Recipes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recipes.html">My Recipes</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.html">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">My Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Signup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
 
     <!-- Page Content -->
     <div class="container">
+      <br><br>
       <div class="row">
-        <div class="col-lg-12 text-center">
-        <br><br>
-        <div class="jumbotron" style=" background: #fff">
-          <h1 class="display-3">About Us</h1>
-          <p class="lead">Yummy recipes provides a platform for you to keep track of your awesome recipes and share them with others if you so wish.
-          Feel free to add your awesome recipes and share them with the world.</p>
-          <hr class="my-4">
-          <p></p>
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" href="register.html" role="button">Sign up</a>
-          </p>
+        <div class="col-lg-6">
+          <img class="img-fluid rounded mb-4" src="img/strawberry.jpg" alt="">
         </div>
+        <div class="col-lg-6">
+          <h2>About Yummy Recipes</h2>
+          <p>Yummy Recipes is a one of a kind recipe-sharing platform that is used by millions of users around the world to share their amazing recipes with each other.</p>
+          <p>Yummy Recipes has been designed with simplicity in mind so that it is easy to get started with and use. All you need to do to get started is either creating your account or logging in to your account and you can then share your amazing recipes with the world</p>
+          <p>See, it is as easy as 1,2,3. What are you waiting for? Stop waiting and start sharing your awesome recipes with the world.</p>
         </div>
       </div>
     </div>
+    <br><br>
+
+      <!-- Footer -->
+    <footer class="py-5">
+      <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; Yummy Recipes 2018</p>
+      </div>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/jquery/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
