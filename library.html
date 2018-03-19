@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css" type="text/css"> </head>
 
-<body>
+<body class="">
   <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#"><b>  Hello-Books</b></a>
@@ -44,45 +44,74 @@
       </div>
     </div>
   </nav>
-  <div class="py-5 text-white opaque-overlay filter-dark" style="background-image: url('static/img/b5.jpg');">
+  <div class="py-2">
     <div class="container">
       <div class="row">
-        <div class="col-md-3"></div>
         <div class="col-md-6">
-          <h1 class="text-gray-dark">Signup</h1>
+          <h1 class="">Easily view and borrow books</h1>
+        </div>
+        <div class="col-md-6">
           <div class="alert alert-success" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">×</button>
             <h4 class="alert-heading">success</h4>
-            <p class="mb-0">Account created successfully</p>
+            <p class="mb-0">Your request has been received successfully</p>
           </div>
-          <form class="" method="post" action="https://formspree.io/">
-            <div class="form-group"> <label>Email address</label>
-              <input type="email" name="email" class="form-control" placeholder="Enter email"> </div>
-            <div class="form-group"> <label>Username</label>
-              <input type="text" name="username" class="form-control" placeholder="Username"> </div>
-            <div class="form-group"> <label>Password</label>
-              <input type="password" name="password" class="form-control" placeholder="Password"> </div>
-            <div class="form-group"> <label>Verify password</label>
-              <input type="password" name="vrfpassword" class="form-control" placeholder="Verify password"> </div>
-            <button type="submit" class="btn btn-dark">Signup</button>
-          </form>
         </div>
       </div>
     </div>
   </div>
-  <div class="text-center text-white py-5 bg-dark">
+  <div class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="display-4">Join the conversation...</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <a href="https://www.facebook.com/" class="text-white" target="_blank"><i class="fa fa-fw fa-facebook fa-3x mx-3"></i></a>
-          <a href="https://twitter.com/" class="text-white" target="_blank"><i class="fa fa-fw fa-twitter fa-3x mx-3"></i></a>
-          <a href="https://plus.google.com/" class="text-white" target="_blank"><i class="fa fa-fw fa-3x fa-google-plus mx-3"></i></a>
-          <a href="https://www.instagram.com/" class="text-white" target="_blank"><i class="fa fa-fw fa-instagram fa-3x mx-3"></i></a>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>id</th>
+                <th>ISBN</th>
+                <th>Genre</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Quantity</th>
+                <th>Borrow</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>145-348-543</td>
+                <td>Health</td>
+                <td>Healthy Eating for Everyone</td>
+                <td>Ben Carson</td>
+                <td>65</td>
+                <td>
+                  <a href="#" class="btn btn-outline-dark">Borrow</a>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>145-348-543</td>
+                <td>Health</td>
+                <td>Healthy Eating for Everyone</td>
+                <td>Ben Carson</td>
+                <td>65</td>
+                <td>
+                  <a href="#" class="btn btn-outline-dark">Borrow</a>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>145-348-543</td>
+                <td>Health</td>
+                <td>Healthy Eating for Everyone</td>
+                <td>Ben Carson</td>
+                <td>65</td>
+                <td>
+                  <a href="#" class="btn btn-outline-dark">Borrow</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
