@@ -152,3 +152,11 @@ h2 {
 }
 
 #new-meal {margin-bottom: 20px;}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+  text-decoration: none;
+  color: white;
+}

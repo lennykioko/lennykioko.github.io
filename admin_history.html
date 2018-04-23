@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin-History</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
 </head>
 
 <body>
@@ -19,28 +19,28 @@
   <div class="clear"></div>
 
   <div id="menu-bar-2-container">
-    <div id="menu-bar-2">
-      <a href="admin_meals.html">Admin_meals</a>
-            <a href="admin_menu.html">Admin_menu</a>
-            <a href="admin_history.html" id="break-nav-admin">Admin_history</a>
+        <div id="menu-bar-2">
+            <a class="not-active">Admin</a>
+            <a href="admin_meals.html">Meals</a>
+            <a href="admin_menu.html">Menu</a>
+            <a href="admin_history.html" id="break-nav-admin">History</a>
             <a href="index.html">Menu</a>
-            <a href="login.html">Login</a>
-            <a href="#">Logout</a>
+            <a href="index.html">Logout</a>
+        </div>
     </div>
-  </div>
 
   <div class="container">
     <table class="table">
 
       <tr>
-        <th>Meal_id</th>
-        <th>Menu Item</th>
+        <th>id</th>
+        <th>Item</th>
         <th>Price</th>
         <th>Date</th>
         <th>Customer</th>
-        <th>Customer_id</th>
-        <th>Fulfilled</th>
-        <th>Fulfill</th>
+        <th>id</th>
+        <th>Status</th>
+        <th>Delivered</th>
       </tr>
 
       <tr>
@@ -52,7 +52,7 @@
         <td>12</td>
         <td>False</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" href="#">Deliver</a>
         </td>
       </tr>
 
@@ -65,7 +65,7 @@
         <td>4</td>
         <td>False</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" href="#">Deliver</a>
         </td>
       </tr>
 
@@ -78,7 +78,7 @@
         <td>8</td>
         <td>False</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" href="#">Deliver</a>
         </td>
       </tr>
 
@@ -91,7 +91,7 @@
         <td>25</td>
         <td>True</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" class="not-active">Deliver</a>
         </td>
       </tr>
 
@@ -104,7 +104,7 @@
         <td>5</td>
         <td>True</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" class="not-active">Deliver</a>
         </td>
       </tr>
 
@@ -117,7 +117,7 @@
         <td>45</td>
         <td>True</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" class="not-active">Deliver</a>
         </td>
       </tr>
 
@@ -130,7 +130,7 @@
         <td>2</td>
         <td>True</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" class="not-active">Deliver</a>
         </td>
       </tr>
 
@@ -143,7 +143,7 @@
         <td>5</td>
         <td>True</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" class="not-active">Deliver</a>
         </td>
       </tr>
 
@@ -156,7 +156,7 @@
         <td>69</td>
         <td>True</td>
         <td>
-            <a class="button" href="#">Fulfill</a>
+            <a class="button" class="not-active">Deliver</a>
         </td>
       </tr>
 
