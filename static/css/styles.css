@@ -159,4 +159,13 @@ h2 {
   opacity: 0.5;
   text-decoration: none;
   color: white;
+  background-color: #3ff1e3;
+}
+
+.shadow {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.3;
+  text-decoration: none;
+  color: white;
 }
