@@ -18,7 +18,7 @@ body {
 
 #menu-bar {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 0 0 5px;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h2 {
 
 #menu-bar-2 {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 0 0 5px;
     height: 40px;
 }
 
@@ -61,10 +61,6 @@ h2 {
 }
 
 #menu-bar-2 a:hover {color: rgb(122, 6, 6);}
-
-#break-nav {margin-right: 25em;}
-
-#break-nav-admin {margin-right: 20em;}
 
 .container {
     margin: 5px auto;
@@ -168,4 +164,15 @@ h2 {
   opacity: 0.3;
   text-decoration: none;
   color: white;
+}
+
+a p {
+    display: inline-block;
+}
+
+.label {
+    font-size: 30px;
+    font-weight: normal;
+    color: #12bbad;
+    margin-bottom: 20px;
 }
