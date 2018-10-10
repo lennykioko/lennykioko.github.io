@@ -69,8 +69,10 @@ const Portfolio = (function() {
 	function typeAnimation() {
 		Typed.new('#writing-text', {
 			strings: [
-				'am a World-class Software Developer.',
+				'am a World-class Software Developer at Andela.',
 				'am a Full-Stack Web Developer.',
+				'am a Passionate Pythonista.',
+				'am an Aspiring Machine Learning Engineer.',
 				'love everything about code.',
 				'also teach programming to people.',
 				'solve problems.'
