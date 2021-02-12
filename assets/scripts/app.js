@@ -71,8 +71,9 @@ const Portfolio = (function() {
 			strings: [
 				'am a World-class Software Engineer.',
 				'am a Full-Stack Web Developer.',
-				'love people and code.',
-				'solve problems.'
+				'solve problems.',
+				'increase efficiency.',
+				'love people and code.'
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
@@ -81,8 +82,7 @@ const Portfolio = (function() {
 			contentType: 'text',
 			callback: function() {
 				$('#writing-text').css({
-					color: '#fff',
-					'background-color': '#C8412B'
+					color: '##000',
 				});
 			},
 			preStringTyped: function() {},
