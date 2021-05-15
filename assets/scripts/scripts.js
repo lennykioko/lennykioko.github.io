@@ -2,6 +2,13 @@ workSection = document.querySelector('#work');
 
 projects = [
     {
+        image: 'assets/images/disney.png',
+        name: 'Disney+ Clone',
+        plaform: 'Web',
+        description: 'A working clone of Disney+.',
+        link: 'https://disney-clone-3f461.web.app/'
+    },
+    {
         image: 'assets/images/zoom.png',
         name: 'Zoom Clone',
         plaform: 'Web',
