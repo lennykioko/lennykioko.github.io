@@ -23,40 +23,12 @@ projects = [
         link: 'https://clone-9cc10.firebaseapp.com/'
     },
     {
-        image: 'assets/images/abufulan.png',
-        name: 'Abufulan',
-        plaform: 'Web',
-        description: 'An e-commerce store specializing in electronics.',
-        link: 'https://www.abufulan.co.ke/'
-    },
-    {
-        image: 'assets/images/faustiesbakery.png',
-        name: 'Fausties Bakery',
-        plaform: 'Web',
-        description: 'A baking service company.',
-        link: 'https://fausties-bakery.herokuapp.com/'
-    },
-    {
-        image: 'assets/images/difanlogistics.png',
-        name: 'Difan Logistics',
-        plaform: 'Web',
-        description: 'A shipping and logistics company.',
-        link: 'https://difanlogistics.herokuapp.com/index.html'
-    },
-    {
         image: 'assets/images/norris.png',
         name: 'Chuck Norris',
         plaform: 'Web',
         description: 'A joking website.',
         link: 'https://norris-client.netlify.app/'
-    },
-    {
-        image: 'assets/images/blog.png',
-        name: 'Blog',
-        plaform: 'Web',
-        description: 'A personal blog application.',
-        link: 'https://flask-blog-app.herokuapp.com/'
-    },
+    }  
 ]
 
 const createOddElement = (image, name, plaform, description, link) => {
