@@ -1,4 +1,6 @@
 function Volunteer() {
+  const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
   return (
     <div className="flex-col items-center justify-center border-b-2 border-amber-400">
       <div className="py-4 text-center text-xl font-bold">
