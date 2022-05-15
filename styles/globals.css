@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*,
+html,
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d6d3d1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fbbb6f;
+  border: 2px solid #fbbb6f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
