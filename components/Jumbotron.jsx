@@ -1,8 +1,6 @@
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im'
 
 function Jumbotron() {
-  const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
   return (
     <section className="border-b-2 border-amber-400 pb-8">
       <div className="flex w-full items-center justify-center">

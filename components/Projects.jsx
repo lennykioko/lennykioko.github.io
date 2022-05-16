@@ -1,66 +1,64 @@
 import { GrGithub } from 'react-icons/gr'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
-const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
 const projects = [
   {
-    image: `${PREFIX}/projects/balance.png`,
+    image: `/projects/balance.png`,
     title: 'Balance Checker',
     website: 'https://balance-checker-omega.vercel.app/',
     code: 'https://github.com/lennykioko/balance-checker',
   },
   {
-    image: `${PREFIX}/projects/bible.png`,
+    image: `/projects/bible.png`,
     title: 'Bible In a Year',
     website: 'https://bible-in-a-year.vercel.app/',
     code: 'https://github.com/lennykioko/bible-in-a-year',
   },
 
   {
-    image: `${PREFIX}/projects/opensea.png`,
+    image: `/projects/opensea.png`,
     title: 'Opensea Clone',
     website: 'https://opensea-clone-iota.vercel.app/',
     code: 'https://github.com/lennykioko/Opensea-clone',
   },
 
   {
-    image: `${PREFIX}/projects/uniswap.png`,
+    image: `/projects/uniswap.png`,
     title: 'Uniswap Clone',
     website: 'https://uniswap-clone-roan.vercel.app/',
     code: 'https://github.com/lennykioko/uniswap-clone',
   },
 
   {
-    image: `${PREFIX}/projects/instagram.png`,
+    image: `/projects/instagram.png`,
     title: 'Instagram Clone',
     website: 'https://instagram-clone-pi-ten.vercel.app/',
     code: 'https://github.com/lennykioko/instagram-clone',
   },
 
   {
-    image: `${PREFIX}/projects/medium.png`,
+    image: `/projects/medium.png`,
     title: 'Medium Clone',
     website: 'https://medium-clone-sigma-indol.vercel.app/',
     code: 'https://github.com/lennykioko/medium-clone',
   },
 
   {
-    image: `${PREFIX}/projects/hulu.png`,
+    image: `/projects/hulu.png`,
     title: 'Hulu Clone',
     website: 'https://hulu-clone-swart-gamma.vercel.app/',
     code: 'https://github.com/lennykioko/hulu-clone',
   },
 
   {
-    image: `${PREFIX}/projects/zoom.png`,
+    image: `/projects/zoom.png`,
     title: 'Zoom Clone',
     website: 'https://zoom-meeting-clone.herokuapp.com/',
     code: 'https://github.com/lennykioko/zoom-clone',
   },
 
   {
-    image: `${PREFIX}/projects/disney.png`,
+    image: `/projects/disney.png`,
     title: 'Disney+ Clone',
     website: 'https://disney-clone-3f461.web.app/',
     code: 'https://github.com/lennykioko/disney-clone',

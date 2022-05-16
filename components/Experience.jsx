@@ -1,6 +1,4 @@
 function Experience() {
-  const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
   return (
     <div className="flex-col items-center justify-center border-b-2 border-amber-400">
       <div className="py-4 text-center text-xl font-bold">Experience</div>
@@ -9,7 +7,7 @@ function Experience() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/microsoft.jpg`}
+              src={`/microsoft.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -27,7 +25,7 @@ function Experience() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/recordbay.jpg`}
+              src={`/recordbay.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -45,7 +43,7 @@ function Experience() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/sovtech.jpg`}
+              src={`/sovtech.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -63,7 +61,7 @@ function Experience() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/saltpay.jpg`}
+              src={`/saltpay.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -81,7 +79,7 @@ function Experience() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/certitude.jpg`}
+              src={`/certitude.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -99,7 +97,7 @@ function Experience() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/andela.jpg`}
+              src={`/andela.jpg`}
               alt="Company Logo"
               width={50}
               height={50}

@@ -1,6 +1,4 @@
 function Volunteer() {
-  const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
   return (
     <div className="flex-col items-center justify-center border-b-2 border-amber-400">
       <div className="py-4 text-center text-xl font-bold">
@@ -11,7 +9,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/rotaract.jpg`}
+              src={`/rotaract.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -29,7 +27,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/andela.jpg`}
+              src={`/andela.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -47,7 +45,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/toastmasters.jpg`}
+              src={`/toastmasters.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -65,7 +63,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/redcross.jpg`}
+              src={`/redcross.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -85,7 +83,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/PA.jpg`}
+              src={`/PA.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -105,7 +103,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/stjohn.jpg`}
+              src={`/stjohn.jpg`}
               alt="Company Logo"
               width={50}
               height={50}
@@ -123,7 +121,7 @@ function Volunteer() {
           <div className="pl-2">
             <img
               className="object-contain"
-              src={`${PREFIX}/mancity.png`}
+              src={`/mancity.png`}
               alt="Company Logo"
               width={50}
               height={50}

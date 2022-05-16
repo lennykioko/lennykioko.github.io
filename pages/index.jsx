@@ -8,13 +8,11 @@ import Skills from '../components/Skills'
 import Volunteer from '../components/Volunteer'
 
 const Home = () => {
-  const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
   return (
     <div className="min-w-screen min-h-screen flex-col items-center justify-center bg-slate-50 text-black">
       <Head>
         <title>Lenny Kioko</title>
-        <link rel="icon" href={`${PREFIX}/favicon.ico`} />
+        <link rel="icon" href={`/favicon.ico`} />
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta
