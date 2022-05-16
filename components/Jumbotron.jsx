@@ -9,7 +9,7 @@ function Jumbotron() {
         <div className="mt-14 rounded-full border-4 border-amber-400 p-1">
           <img
             className="rounded-full object-contain"
-            src={`${PREFIX}/profile.jpg`}
+            src={`/profile.jpg`}
             alt="Profile Photo"
             width={200}
             height={200}
