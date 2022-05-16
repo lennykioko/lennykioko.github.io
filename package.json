@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://lennykioko.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
