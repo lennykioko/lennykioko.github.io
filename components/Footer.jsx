@@ -2,9 +2,13 @@ import { GrLinkedin, GrGithub, GrInstagram, GrMailOption } from 'react-icons/gr'
 
 function Footer() {
   return (
-    <div className="text-md w-full flex-col items-center justify-center bg-slate-100 py-4">
+    <footer className="w-full flex-col items-center justify-center bg-slate-100 p-4">
       <div className="text-center">Lenny Kioko</div>
-      <div className="my-4 flex items-center justify-around">
+      <div className="text-center text-xs text-gray-500">
+        Excellence - Passion - Integrity - Collaboration
+      </div>
+
+      <div className="m-4 flex items-center justify-around">
         <div></div>
         <div className="flex items-center justify-around space-x-4">
           <a
@@ -39,8 +43,10 @@ function Footer() {
         <div></div>
       </div>
       <div></div>
-      <div className="mt-2 text-center">Copyright &copy; 2022</div>
-    </div>
+      <div className="m-4 text-center text-sm text-gray-500">
+        Copyright &copy; 2022
+      </div>
+    </footer>
   )
 }
 

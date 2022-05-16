@@ -12,16 +12,16 @@ const Home = () => {
     <div className="min-w-screen min-h-screen flex-col items-center justify-center bg-slate-50 text-black">
       <Head>
         <title>Lenny Kioko</title>
-        <link rel="icon" href={`/favicon.ico`} />
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1"
         />
         <meta
           name="keywords"
-          content="software, engineer, consultant, developer, web, frontend, nairobi, kenya"
+          content="Software, Engineer, Programmer, Coder, Remote, Mentor, Consultant, Developer, Web, Web3, Blockchain, Frontend, Nairobi, Kenya"
         />
         <meta
           name="description"
@@ -35,12 +35,12 @@ const Home = () => {
       </Head>
 
       <Header />
-      <main className="relative w-full flex-col items-center justify-center">
+      <main className="w-full flex-col items-center justify-center">
         <Jumbotron />
         <Skills />
         <Experience />
-        <Projects />
         <Volunteer />
+        <Projects />
         <Footer />
       </main>
     </div>

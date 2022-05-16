@@ -1,41 +1,53 @@
+const arrayOne = [
+  'NextJS',
+  'ReactJS',
+  'JavaScript',
+  'TypeScript',
+  'TailwindCSS',
+  'HTML',
+  'CSS',
+  'ChakraUI',
+  'Styled Components',
+  'Figma',
+]
+
+const arrayTwo = [
+  'Solidity',
+  'NodeJS',
+  'ExpressJS',
+  'REST APIs',
+  'GraphQL',
+  'SQL',
+  'PostgrSQL',
+  'MongoDB',
+  'Firebase',
+  'Python',
+  'Django & DRF',
+  'Flask',
+]
+
+const arrayThree = [
+  'Hardhat',
+  'Git & Github',
+  'Docker',
+  'VsCode',
+  'Selenium',
+  'MQL4',
+]
+
 function Skills() {
   return (
     <section className="w-full flex-col items-center justify-center border-b-2 border-amber-400 bg-slate-100">
-      <div className="py-4 text-center text-xl font-bold">Skills</div>
-      <div className="wrap mb-2 flex items-start justify-around">
-        <div className="p-2">
-          <p>NextJS</p>
-          <p>ReactJS</p>
-          <p>JavaScript</p>
-          <p>TypeScript</p>
-          <p>TailwindCSS</p>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>ChakraUI</p>
-          <p>Styled Components</p>
-          <p>Figma</p>
+      <div className="p-4 text-center text-xl font-bold">Skills</div>
+      <div className="wrap flex items-start justify-around p-4">
+        <div className="p-4">
+          {arrayOne && arrayOne.map((item, idx) => <p key={idx}>{item}</p>)}
         </div>
-        <div className="p-2">
-          <p>Solidity</p>
-          <p>NodeJS</p>
-          <p>ExpressJS</p>
-          <p>REST APIs</p>
-          <p>GraphQL</p>
-          <p>SQL</p>
-          <p>PostgrSQL</p>
-          <p>MongoDB</p>
-          <p>Firebase</p>
-          <p>Python</p>
-          <p>Django &amp; DRF</p>
-          <p>Flask</p>
+        <div className="p-4">
+          {arrayTwo && arrayTwo.map((item, idx) => <p key={idx}>{item}</p>)}
         </div>
-        <div className="p-2">
-          <p>Hardhat</p>
-          <p>Git &amp; Github</p>
-          <p>Docker</p>
-          <p>VsCode</p>
-          <p>Selenium</p>
-          <p>MQL4</p>
+        <div className="p-4">
+          {arrayThree && arrayThree.map((item, idx) => <p key={idx}>{item}</p>)}
         </div>
       </div>
     </section>

@@ -2,9 +2,9 @@ import { GrLinkedin, GrGithub, GrInstagram } from 'react-icons/gr'
 
 function Header() {
   return (
-    <div className="sticky top-0 z-10 flex w-full items-center justify-between border-b-2 border-dotted border-amber-400 bg-slate-100">
+    <header className="flex w-full items-center justify-between border border-b-2 border-amber-400 bg-slate-100">
       <div className="p-4 text-2xl">Lenny Kioko</div>
-      <div className="mr-4 flex items-center justify-around space-x-2">
+      <div className="mr-4 flex items-center justify-around space-x-4">
         <a
           target="_blank"
           href="https://www.linkedin.com/in/lennykioko/"
@@ -27,7 +27,7 @@ function Header() {
           <GrInstagram className="h-6 w-6" color="red" />
         </a>
       </div>
-    </div>
+    </header>
   )
 }
 
