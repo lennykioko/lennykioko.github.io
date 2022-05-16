@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { GrLinkedin, GrGithub, GrInstagram } from 'react-icons/gr'
 
 function Header() {
