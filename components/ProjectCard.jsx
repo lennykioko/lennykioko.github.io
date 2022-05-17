@@ -23,14 +23,14 @@ function ProjectCard({ image, title, website, code, idx }) {
           <a target="_blank" href={website} rel="noreferrer">
             <div className="mb-4 flex items-center space-x-2">
               <HiOutlineExternalLink className="h-6 w-6" color="black" />
-              <div className="hover:text-lg">Website</div>
+              <div>Website</div>
             </div>
           </a>
 
           <a target="_blank" href={code} rel="noreferrer">
             <div className="flex items-center space-x-2">
               <GrGithub className="h-6 w-6" color="black" />
-              <div className="hover:text-lg">Code</div>
+              <div>Code</div>
             </div>
           </a>
         </div>
