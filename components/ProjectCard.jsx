@@ -1,7 +1,7 @@
 import { GrGithub } from 'react-icons/gr'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
-function ProjectCard({ image, title, website, code, idx }) {
+function ProjectCard({ image, title, website, code, idx, showCode }) {
   return (
     <div
       className={`w-96 rounded-md border border-amber-400 bg-slate-100 hover:bg-slate-200 ${
@@ -27,12 +27,16 @@ function ProjectCard({ image, title, website, code, idx }) {
             </div>
           </a>
 
-          <a target="_blank" href={code} rel="noreferrer">
-            <div className="flex items-center space-x-2">
-              <GrGithub className="h-6 w-6" color="black" />
-              <div>Code</div>
-            </div>
-          </a>
+          {showCode ? (
+            <a target="_blank" href={code} rel="noreferrer">
+              <div className="flex items-center space-x-2">
+                <GrGithub className="h-6 w-6" color="black" />
+                <div>Code</div>
+              </div>
+            </a>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>
