@@ -9,5 +9,5 @@ It is built, exported and deployed on GitHub Pages
 source code
 
 ```
-/?demo=true
+/?demo=1
 ```
