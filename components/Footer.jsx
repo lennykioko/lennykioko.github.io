@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="w-full flex-col items-center justify-center bg-slate-100 p-4">
       <div className="text-center">Lenny Kioko</div>
-      <div className="text-center text-xs text-gray-500">
+      <div className="text-center text-xs text-gray-600">
         Excellence - Passion - Integrity - Collaboration
       </div>
 
@@ -15,6 +15,7 @@ function Footer() {
             target="_blank"
             href="https://www.linkedin.com/in/lennykioko/"
             rel="noreferrer"
+            aria-label="Linkedin"
           >
             <GrLinkedin className="h-6 w-6" color="darkblue" />
           </a>
@@ -22,6 +23,7 @@ function Footer() {
             target="_blank"
             href="https://github.com/lennykioko"
             rel="noreferrer"
+            aria-label="GitHub"
           >
             <GrGithub className="h-6 w-6" />
           </a>
@@ -29,6 +31,7 @@ function Footer() {
             target="_blank"
             href="https://www.instagram.com/lenny_kioko/"
             rel="noreferrer"
+            aria-label="Instagram"
           >
             <GrInstagram className="h-6 w-6" color="red" />
           </a>
@@ -36,6 +39,7 @@ function Footer() {
             target="_blank"
             href="mailto:lennykmutua@gmail.com"
             rel="noreferrer"
+            aria-label="Mail"
           >
             <GrMailOption className="h-6 w-6" color="black" />
           </a>
@@ -43,7 +47,7 @@ function Footer() {
         <div></div>
       </div>
       <div></div>
-      <div className="m-4 text-center text-sm text-gray-500">
+      <div className="m-4 text-center text-sm text-gray-600">
         Copyright &copy; 2022
       </div>
     </footer>

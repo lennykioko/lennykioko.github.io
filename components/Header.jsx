@@ -9,6 +9,7 @@ function Header() {
           target="_blank"
           href="https://www.linkedin.com/in/lennykioko/"
           rel="noreferrer"
+          aria-label="Linkedin"
         >
           <GrLinkedin className="h-6 w-6" color="darkblue" />
         </a>
@@ -16,6 +17,7 @@ function Header() {
           target="_blank"
           href="https://github.com/lennykioko"
           rel="noreferrer"
+          aria-label="GitHub"
         >
           <GrGithub className="h-6 w-6" />
         </a>
@@ -23,6 +25,7 @@ function Header() {
           target="_blank"
           href="https://www.instagram.com/lenny_kioko/"
           rel="noreferrer"
+          aria-label="Instagram"
         >
           <GrInstagram className="h-6 w-6" color="red" />
         </a>

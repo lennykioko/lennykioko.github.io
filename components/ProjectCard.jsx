@@ -8,10 +8,16 @@ function ProjectCard({ image, title, website, code, idx, showCode }) {
         idx === 0 ? 'mt-8' : null
       }`}
     >
-      <a target="_blank" href={website} rel="noreferrer">
+      <a
+        target="_blank"
+        href={website}
+        rel="noreferrer"
+        aria-label="project-website"
+      >
         <img
           layout="responsive"
           loading="lazy"
+          alt={image}
           src={image}
           width={600}
           height={450}
