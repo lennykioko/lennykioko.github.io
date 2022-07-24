@@ -18,7 +18,7 @@ const arrayTwo = [
   'REST APIs',
   'GraphQL',
   'SQL',
-  'PostgrSQL',
+  'PostgreSQL',
   'MongoDB',
   'Firebase',
   'Python',
