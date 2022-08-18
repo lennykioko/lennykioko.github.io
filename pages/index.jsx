@@ -26,7 +26,7 @@ const Home = () => {
           content="Software engineer at Microsoft based in Nairobi, Kenya"
         />
 
-        <meta property="og:image" content="/profile.jpg" />
+        <meta property="og:image" content="/cityzen.jpg" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="1024" />

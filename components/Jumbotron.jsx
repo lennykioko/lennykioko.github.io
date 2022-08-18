@@ -7,7 +7,7 @@ function Jumbotron() {
         <div className="mt-16 rounded-full border-4 border-amber-400 p-2">
           <img
             className="rounded-full object-contain"
-            src="/profile.jpg"
+            src="/cityzen.jpg"
             alt="Profile Photo"
             width={200}
             height={200}
