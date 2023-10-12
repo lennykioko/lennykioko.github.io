@@ -2,11 +2,25 @@ import OrgCard from './OrgCard'
 
 const volunteering = [
   {
+    image: '/rotary.jpg',
+    title: 'Paul Harris Fellow',
+    subTitle: 'Rotary',
+    date: 'May 2023 - Present',
+    description: 'Economic Empowerment',
+  },
+  {
+    image: '/rotaract.jpg',
+    title: 'The Rotary Foundation Director',
+    subTitle: 'Rotaract',
+    date: 'Jun 2023 - Jun 2024',
+    description: 'Economic Empowerment',
+  },
+  {
     image: '/rotaract.jpg',
     title: 'Member',
     subTitle: 'Rotaract',
     date: 'Jun 2021 - Present',
-    description: 'Economic Empowerement',
+    description: 'Economic Empowerment',
   },
   {
     image: '/andela.jpg',
