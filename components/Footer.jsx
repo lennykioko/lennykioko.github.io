@@ -1,4 +1,11 @@
-import { GrLinkedin, GrGithub, GrInstagram, GrMailOption } from 'react-icons/gr'
+import {
+  GrLinkedin,
+  GrGithub,
+  GrInstagram,
+  GrMailOption,
+  GrYoutube,
+} from 'react-icons/gr'
+import { SiTelegram } from 'react-icons/si'
 
 function Footer() {
   return (
@@ -11,6 +18,22 @@ function Footer() {
       <div className="m-4 flex items-center justify-around">
         <div></div>
         <div className="flex items-center justify-around space-x-4">
+          <a
+            target="_blank"
+            href="https://www.youtube.com/@TradesbyLennyKioko/"
+            rel="noreferrer"
+            aria-label="YouTube"
+          >
+            <GrYoutube className="h-6 w-6" color="red" />
+          </a>
+          <a
+            target="_blank"
+            href="https://t.me/TradesbyLennyKioko/"
+            rel="noreferrer"
+            aria-label="Telegram"
+          >
+            <SiTelegram className="h-6 w-6" color="#24A1DE" />
+          </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/lennykioko/"
@@ -48,7 +71,7 @@ function Footer() {
       </div>
       <div></div>
       <div className="m-4 text-center text-sm text-gray-600">
-        Copyright &copy; 2022
+        Copyright &copy; 2025 Lenny Kioko. All rights reserved.
       </div>
     </footer>
   )

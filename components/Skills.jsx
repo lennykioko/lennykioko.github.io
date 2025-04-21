@@ -1,4 +1,18 @@
 const arrayOne = [
+  'ICT Concepts',
+  'SMC Concepts',
+  'TradingView',
+  'cTrader',
+  'MetaTrader 4 & 5',
+  'Pine Script',
+  'MQL4',
+  'Python',
+  'Git & Github',
+  'Docker',
+  'VsCode',
+]
+
+const arrayTwo = [
   'NextJS',
   'ReactJS',
   'JavaScript',
@@ -11,28 +25,19 @@ const arrayOne = [
   'Figma',
 ]
 
-const arrayTwo = [
+const arrayThree = [
   'Solidity',
   'NodeJS',
   'ExpressJS',
   'REST APIs',
   'GraphQL',
   'SQL',
+  'KQL',
   'PostgreSQL',
   'MongoDB',
   'Firebase',
-  'Python',
   'Django & DRF',
   'Flask',
-]
-
-const arrayThree = [
-  'Hardhat',
-  'Git & Github',
-  'Docker',
-  'VsCode',
-  'Selenium',
-  'MQL4',
 ]
 
 function Skills() {

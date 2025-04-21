@@ -4,6 +4,12 @@ import { useRouter } from 'next/router'
 
 const projects = [
   {
+    image: '/myYoutube.png',
+    title: 'Youtube Channel',
+    website: 'https://www.youtube.com/@TradesbyLennyKioko/',
+    code: 'https://www.youtube.com/@TradesbyLennyKioko',
+  },
+  {
     image: '/balance.png',
     title: 'Balance Checker',
     website: 'https://balance-checker-omega.vercel.app/',

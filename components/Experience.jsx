@@ -2,6 +2,13 @@ import OrgCard from './OrgCard'
 
 const experiences = [
   {
+    image: '/cityzen.jpg',
+    title: 'Trader',
+    subTitle: 'The Markets',
+    date: 'June 2019 - Present',
+    description: 'Nairobi, Kenya',
+  },
+  {
     image: '/microsoft.jpg',
     title: 'Software Engineer II',
     subTitle: 'Microsoft - Full-time',
