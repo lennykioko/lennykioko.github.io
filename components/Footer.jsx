@@ -60,7 +60,7 @@ function Footer() {
           </a>
           <a
             target="_blank"
-            href="mailto:lennykmutua@gmail.com"
+            href="mailto:pacentaconsultancy@gmail.com"
             rel="noreferrer"
             aria-label="Mail"
           >
