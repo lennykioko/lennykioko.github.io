@@ -6,6 +6,7 @@ import {
   GrYoutube,
 } from 'react-icons/gr'
 import { SiTelegram } from 'react-icons/si'
+import { FaXTwitter } from 'react-icons/fa6'
 
 function Footer() {
   return (
@@ -33,6 +34,14 @@ function Footer() {
             aria-label="Telegram"
           >
             <SiTelegram className="h-6 w-6" color="#24A1DE" />
+          </a>
+          <a
+            target="_blank"
+            href="https://x.com/lenny_kioko"
+            rel="noreferrer"
+            aria-label="TwitterX"
+          >
+            <FaXTwitter className="h-6 w-6" color="black" />
           </a>
           <a
             target="_blank"
