@@ -3,7 +3,7 @@ import OrgCard from './OrgCard'
 const experiences = [
   {
     image: '/cityzen.jpg',
-    title: 'Trader',
+    title: 'Algorithmic Trader',
     subTitle: 'The Markets',
     date: 'June 2019 - Present',
     description: 'Nairobi, Kenya',
