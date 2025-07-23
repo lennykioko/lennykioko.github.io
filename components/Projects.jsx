@@ -10,16 +10,16 @@ const projects = [
     code: 'https://www.youtube.com/@TradesbyLennyKioko',
   },
   {
-    image: '/balance.png',
-    title: 'Balance Checker',
-    website: 'https://balance-checker-omega.vercel.app/',
-    code: 'https://github.com/lennykioko/balance-checker',
-  },
-  {
     image: '/bible.png',
     title: 'Bible In a Year',
     website: 'https://bible-in-a-year.vercel.app/',
     code: 'https://github.com/lennykioko/bible-in-a-year',
+  },
+  {
+    image: '/balance.png',
+    title: 'Balance Checker',
+    website: 'https://balance-checker-omega.vercel.app/',
+    code: 'https://github.com/lennykioko/balance-checker',
   },
   {
     image: '/opensea.png',
