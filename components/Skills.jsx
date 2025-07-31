@@ -5,7 +5,7 @@ const arrayOne = [
   'cTrader',
   'MetaTrader 4 & 5',
   'Pine Script',
-  'MQL4',
+  'MQL5',
   'Python',
   'Git & Github',
   'Docker',

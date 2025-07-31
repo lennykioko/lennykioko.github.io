@@ -12,7 +12,7 @@ const experiences = [
     image: '/microsoft.jpg',
     title: 'Software Engineer II',
     subTitle: 'Microsoft - Full-time',
-    date: 'Dec 2021 - Present',
+    date: 'Dec 2021 - Aug 2025',
     description: 'Nairobi, Kenya',
   },
   {

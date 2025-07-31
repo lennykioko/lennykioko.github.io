@@ -19,6 +19,7 @@ function Jumbotron() {
         <div className="text-center">
           <p>Hi 👋, I am Lenny.</p>
           <p>Algorithmic Trader | Techie</p>
+          <p>Ex-Microsoft | Ex-Andela</p>
         </div>
         <ImQuotesRight className="ml-3 mt-3 h-6 w-6 self-end" />
       </div>
