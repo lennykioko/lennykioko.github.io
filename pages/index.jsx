@@ -19,11 +19,11 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="Software, Engineer, Programmer, Coder, Remote, Mentor, Consultant, Developer, Web, Web3, Blockchain, Frontend, Nairobi, Kenya"
+          content="Trader, Algorithmic trader, Trading, Forex trading, Nasdaq, US100, Futures, Stocks, Shares, Software, Engineer, Programmer, Coder, Remote, Mentor, Consultant, Developer, Web, Web3, Blockchain, Frontend, Nairobi, Kenya"
         />
         <meta
           name="description"
-          content="Software engineer at Microsoft based in Nairobi, Kenya"
+          content="Algorithmic trader based in Nairobi, Kenya"
         />
 
         <meta property="og:image" content="/cityzen.jpg" />
