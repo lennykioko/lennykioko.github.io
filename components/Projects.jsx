@@ -10,10 +10,25 @@ const projects = [
     code: 'https://www.youtube.com/@TradesbyLennyKioko',
   },
   {
-    image: '/bible.png',
-    title: 'Bible In a Year',
-    website: 'https://bible-in-a-year.vercel.app/',
-    code: 'https://github.com/lennykioko/bible-in-a-year',
+    image: '/Daily-open-price.png',
+    title: 'Daily Open Price Indicator',
+    website:
+      'https://www.tradingview.com/script/iOBABiLj-Daily-Open-Price-version-1-0/',
+    code: 'https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/Daily-Open-Price.pine',
+  },
+  {
+    image: '/ICT-sessions.png',
+    title: 'ICT Sessions Indicator',
+    website:
+      'https://www.tradingview.com/script/0unDD4MW-ICT-Sessions-version-1-0/',
+    code: 'https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/ICT-Sessions.pine',
+  },
+  {
+    image: '/ICT-silver-bullet-sessions.png',
+    title: 'ICT Silver Bullet Sessions Indicator',
+    website:
+      'https://www.tradingview.com/script/hCC7WbWf-ICT-Silver-bullet-sessions-version-1-0/',
+    code: 'https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/ICT-Silver-Bullet.pine',
   },
 ]
 

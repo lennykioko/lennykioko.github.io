@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Jumbotron from '../components/Jumbotron'
 import Projects from '../components/Projects'
+import HobbyProjects from '../components/HobbyProjects'
 import Skills from '../components/Skills'
 import Volunteer from '../components/Volunteer'
 
@@ -39,6 +40,7 @@ const Home = () => {
         <Experience />
         <Volunteer />
         <Projects />
+        <HobbyProjects />
         <Footer />
       </main>
     </div>
