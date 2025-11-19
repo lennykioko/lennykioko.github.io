@@ -18,7 +18,7 @@ const projects = [
     code: "https://trk.pepperstonepartners.com/aff_c?offer_id=367&aff_id=41245",
   },
   {
-    image: "/Silver-Bullet-profile.png",
+    image: "/Silver-Bullet-profile-2.png",
     title: "Copy Trading (HFM MT4)",
     website:
       "https://my.hfm.com/en/copy-trading/provider-details?provider=69188145&refid=30473755/",
@@ -48,10 +48,6 @@ const projects = [
 ];
 
 export default function Projects() {
-
-
-
-
   return (
     <section className="w-full border-b-2 border-amber-400 bg-slate-100 py-8">
       <div className="text-center text-2xl font-semibold mb-8">Projects</div>
