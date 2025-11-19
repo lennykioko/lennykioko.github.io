@@ -21,7 +21,7 @@ export default function OrgCard({
     <Card className="m-4 hover:shadow-md transition-shadow">
       <CardContent className="flex space-x-6 p-6">
         <div className="flex-shrink-0">
-          <Avatar className="w-12 h-12">
+          <Avatar className="w-16 h-16">
             <AvatarImage
               src={image}
               alt={`${title} logo`}
@@ -33,7 +33,7 @@ export default function OrgCard({
           </Avatar>
         </div>
         <div className="flex-1 space-y-1">
-          <h3 className="text-lg font-bold">{title}</h3>
+          <h3 className="text-lg font-semibold">{title}</h3>
           <p className="text-sm font-medium text-gray-700">{subTitle}</p>
           <p className="text-sm text-gray-600">{date}</p>
           <p className="text-sm text-gray-500">{description}</p>

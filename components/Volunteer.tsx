@@ -77,7 +77,7 @@ const volunteering: VolunteerItem[] = [
 export default function Volunteer() {
   return (
     <section className="flex-col items-center justify-center border-b-2 border-amber-400 py-8">
-      <div className="p-4 text-center text-2xl font-bold">
+      <div className="p-4 text-center text-2xl font-semibold">
         Volunteering &amp; Hobbies
       </div>
       <div className="max-w-4xl mx-auto px-4">

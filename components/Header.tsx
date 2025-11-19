@@ -44,7 +44,7 @@ const socialLinks = [
 export default function Header() {
   return (
     <header className="flex w-full items-center justify-between border-b-2 border-amber-400 bg-slate-100">
-      <div className="p-4 text-2xl font-bold">Lenny Kioko</div>
+      <div className="p-4 text-2xl font-semibold">Lenny Kioko</div>
       <nav className="mr-4 flex items-center justify-around space-x-4">
         {socialLinks.map(({ href, icon: Icon, label, color }) => (
           <a

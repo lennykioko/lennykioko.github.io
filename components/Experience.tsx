@@ -63,7 +63,7 @@ const experiences: ExperienceItem[] = [
 export default function Experience() {
   return (
     <section className="flex-col items-center justify-center border-b-2 border-amber-400 py-8">
-      <div className="p-4 text-center text-2xl font-bold">Experience</div>
+      <div className="p-4 text-center text-2xl font-semibold">Experience</div>
       <div className="max-w-4xl mx-auto px-4">
         <div className="space-y-4">
           {experiences.map((experience, idx) => (

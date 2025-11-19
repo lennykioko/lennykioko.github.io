@@ -3,60 +3,32 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const skillCategories = [
   {
-    title: "Trading & Analysis",
+    title: "Trading Skills",
     skills: [
       "ICT Concepts",
       "SMC Concepts",
-      "TradingView",
-      "cTrader",
-      "MetaTrader 4 & 5",
-      "Pine Script",
-      "MQL5",
-      "Python",
+      "Algorithmic Trading",
+      "Trading Psychology",
     ],
   },
   {
-    title: "Frontend Development",
-    skills: [
-      "NextJS",
-      "ReactJS",
-      "JavaScript",
-      "TypeScript",
-      "TailwindCSS",
-      "HTML",
-      "CSS",
-      "ChakraUI",
-      "Styled Components",
-      "Figma",
-    ],
+    title: "Trading Tools",
+    skills: ["TradingView", "MetaTrader 4", "MetaTrader 5", "cTrader"],
   },
   {
-    title: "Backend & Database",
-    skills: [
-      "Solidity",
-      "NodeJS",
-      "ExpressJS",
-      "REST APIs",
-      "GraphQL",
-      "SQL",
-      "KQL",
-      "PostgreSQL",
-      "MongoDB",
-      "Firebase",
-      "Django & DRF",
-      "Flask",
-    ],
+    title: "Programming",
+    skills: ["Pine Script", "MQL4 & MQL5", "Python", "TypeScript"],
   },
   {
-    title: "Tools & DevOps",
-    skills: ["Git & Github", "Docker", "VsCode"],
+    title: "Other",
+    skills: ["VPS", "Docker", "Git & GitHub", "VsCode"],
   },
 ];
 
 export default function Skills() {
   return (
     <section className="w-full flex-col items-center justify-center border-b-2 border-amber-400 bg-slate-100 py-8">
-      <div className="p-4 text-center text-2xl font-bold">Skills</div>
+      <div className="p-4 text-center text-2xl font-semibold">Skills</div>
 
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
