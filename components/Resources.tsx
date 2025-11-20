@@ -69,7 +69,7 @@ const resourceSections = [
           "https://trk.pepperstonepartners.com/aff_c?offer_id=367&aff_id=41245/",
       },
       {
-        image: "/hfm.png",
+        image: "/HFM.png",
         title: "HFM",
         website: "https://www.hfm.com/ke/?refid=30473755",
       },
