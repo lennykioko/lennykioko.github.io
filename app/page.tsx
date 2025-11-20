@@ -1,12 +1,9 @@
 import { Metadata } from "next";
-import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Jumbotron from "../components/Jumbotron";
-import Projects from "../components/Projects";
-import HobbyProjects from "../components/HobbyProjects";
+import Resources from "../components/Resources";
 import Skills from "../components/Skills";
-import Volunteer from "../components/Volunteer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lennykioko.com"),
@@ -33,10 +30,7 @@ export default function Home() {
       <main className="w-full flex flex-col">
         <Jumbotron />
         <Skills />
-        <Experience />
-        <Volunteer />
-        <Projects />
-        <HobbyProjects />
+        <Resources />
       </main>
       <Footer />
     </div>
