@@ -144,13 +144,13 @@ const resourceSections = [
         website: "",
       },
       {
-        image: "/MT4-Dark.png",
-        title: "MT4 Dark Mode Template",
+        image: "/MT5.png",
+        title: "MT5 White Mode Template",
         website: "",
       },
       {
-        image: "/MT5.png",
-        title: "MT5 White Mode Template",
+        image: "/MT4-Dark.png",
+        title: "MT4 Dark Mode Template",
         website: "",
       },
       {
