@@ -63,7 +63,7 @@ const resourceSections = [
     title: "Brokers I've Used",
     items: [
       {
-        image: "/pepperstone.png",
+        image: "/pepperstone-new.png",
         title: "Pepperstone",
         website:
           "https://trk.pepperstonepartners.com/aff_c?offer_id=367&aff_id=41245/",
