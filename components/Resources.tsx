@@ -159,19 +159,19 @@ const resourceSections = [
         image: "/MT5.png",
         title: "KeyLevelsAndFVGs EA",
         website:
-          "https://drive.google.com/file/d/1dnMF4qBUuEEquiFonWvHuAGt2uXbzD1/view?usp=sharing",
+          "https://drive.google.com/file/d/1dnMF4gBtJuEEqujFonWyHuAGt2uXbzD1/view?usp=sharing",
       },
       {
         image: "/MT5.png",
         title: "CheckNews EA",
         website:
-          "https://drive.google.com/file/d/1DvTQTC3N20tufY5Ay_VfBCXfQdd3qWc/view?usp=sharing",
+          "https://drive.google.com/file/d/1DvTQTC3N20tufY5Ay_VfBCXfQdd3gWc-/view?usp=sharing",
       },
       {
         image: "/MT5.png",
         title: "CheckTime EA",
         website:
-          "https://drive.google.com/file/d/1KD_t9e0xosxkqRMQZiv9uU9MR7vifVu9/view?usp=sharing",
+          "https://drive.google.com/file/d/1KD_t9e0xosxkqRMQZjv9uU9MR7vifVu9/view?usp=sharing",
       },
       {
         image: "/MT5.png",
@@ -183,7 +183,7 @@ const resourceSections = [
         image: "/MT5.png",
         title: "TickValue EA",
         website:
-          "https://drive.google.com/file/d/1c3_PZt5uUth4nvLHGfb7tOPZ_05u1RSK/view?usp=sharing",
+          "https://drive.google.com/file/d/1c3_PZi5uUth4nylHGfb7tOPZ_05u1RSK/view?usp=sharing",
       },
     ],
   },
@@ -206,13 +206,13 @@ const resourceSections = [
         image: "/MT4.png",
         title: "DeleteAllObjects",
         website:
-          "https://drive.google.com/file/d/1x2-0ldPnBaJFueDbnbe1sv8YFzHQk9Oh/view?usp=sharing",
+          "https://drive.google.com/file/d/1x2-0JdPnBaJFueDbnbe1sv8YFzHQk9Oh/view?usp=sharing",
       },
       {
         image: "/MT4.png",
         title: "TickValue",
         website:
-          "https://drive.google.com/file/d/1rAYlrE1SCy0m9s4xeozHq7EYQaCc1ns/view?usp=sharing",
+          "https://drive.google.com/file/d/1rAYlrE1SCy0m9s4xeozHg7EYQaCc1nsJ/view?usp=sharing",
       },
     ],
   },
@@ -223,7 +223,7 @@ const resourceSections = [
         image: "/MT4.png",
         title: "TargetReacher EA",
         website:
-          "https://drive.google.com/file/d/1GVV1-_Ea75h6TcL-9nbvsdtFt23HdUfU/view?usp=sharing",
+          "https://drive.google.com/file/d/1GVV1-_Ea75h6TcL-9nbvsdfEt23HdUfU/view?usp=sharing",
       },
     ],
   },
