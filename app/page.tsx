@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Disclaimer from "../components/Disclaimer";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Jumbotron from "../components/Jumbotron";
@@ -32,6 +33,7 @@ export default function Home() {
         <Skills />
         <Resources />
       </main>
+      <Disclaimer />
       <Footer />
     </div>
   );

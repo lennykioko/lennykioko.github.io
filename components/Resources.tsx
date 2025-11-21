@@ -71,7 +71,17 @@ const resourceSections = [
       {
         image: "/HFM.png",
         title: "HFM",
-        website: "https://www.hfm.com/ke/?refid=30473755",
+        website: "https://www.hfm.com/ke/en/?refid=30473755",
+      },
+    ],
+  },
+  {
+    title: "VPS",
+    items: [
+      {
+        image: "/forexvps.png",
+        title: "ForexVPS",
+        website: " https://portal.forexvps.net/raf.php?raf=35039",
       },
     ],
   },
