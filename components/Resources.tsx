@@ -57,6 +57,11 @@ const resourceSections = [
           "https://www.tradingview.com/script/hCC7WbWf-ICT-Silver-bullet-sessions-version-1-0/",
         code: "https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/ICT-Silver-Bullet.pine",
       },
+      {
+        image: "/fvg-nephew-sam.png",
+        title: "FVG (Nephew_Sam_)",
+        website: "https://www.tradingview.com/script/G8b8t2er-FVG-Nephew-Sam/",
+      },
     ],
   },
   {
