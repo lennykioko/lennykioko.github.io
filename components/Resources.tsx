@@ -96,12 +96,14 @@ const resourceSections = [
       {
         image: "/fxblue-copier-MT4.png",
         title: "FX Blue Copier MT4",
-        website: "",
+        website:
+          "https://drive.google.com/file/d/1crGpp9I_KhHz4AG7aQsCdjXTV4IU_YT2/view?usp=sharing",
       },
       {
         image: "/fxblue-copier-MT5.png",
         title: "FX Blue Copier MT5",
-        website: "",
+        website:
+          "https://drive.google.com/file/d/1ZvIrzkSpkwsAUy-ZZ218p6elvmNDsf-l/view?usp=sharing",
       },
     ],
   },
