@@ -101,15 +101,29 @@ export default function ProjectCardWithDialog({
     }
 
     try {
-      // Log the email (you can send this to your backend)
-      console.log("Download request:", {
+      const downloadData = {
         email: email.trim(),
         resource: title,
         downloadUrl: website,
         timestamp: new Date().toISOString(),
+      };
+
+      // Save to Google Sheets via API
+      const response = await fetch('/api/save-download', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(downloadData),
       });
 
-      // Close dialog and open download link
+      if (response.ok) {
+        console.log("Download data saved successfully");
+      } else {
+        console.error("Failed to save download data");
+      }
+
+      // Close dialog and open download link regardless of save success
       setOpen(false);
       window.open(website, "_blank", "noopener,noreferrer");
       setEmail(""); // Reset form
