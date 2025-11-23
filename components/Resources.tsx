@@ -262,7 +262,7 @@ const resourceSections = [
 ];
 
 export default function Resources() {
-  // Function to check if an item requires contact form (MT4/MT5 resources with Google Drive links)
+  // Function to check if an item requires contact form (resources with Google Drive links)
   const requiresContact = (website: string) => {
     const isGoogleDrive = website.includes("drive.google.com");
     return isGoogleDrive;

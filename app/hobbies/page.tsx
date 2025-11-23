@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Personal projects, volunteer work and hobbies of Lenny Kioko - Algorithmic trader & Techie based in Nairobi, Kenya",
   keywords:
-    "Personal, Volunteer, Hobby, Projects, Community, Open Source, Trader, Algorithmic trader, ICT trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
+    "Personal, Volunteer, Hobby, Projects, Community, Open Source, Trader, Algorithmic trader, ICT trader, Inner Circle Trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
   openGraph: {
     images: [
       {

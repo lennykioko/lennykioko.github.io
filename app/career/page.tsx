@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Professional experience and career journey of Lenny Kioko - Algorithmic trader & Techie based in Nairobi, Kenya",
   keywords:
-    "Career, Experience, Professional, Trader, Algorithmic trader, ICT trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
+    "Career, Experience, Professional, Trader, Algorithmic trader, ICT trader, Inner Circle Trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
   openGraph: {
     images: [
       {

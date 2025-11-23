@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Lenny Kioko - Algorithmic Trader & Techie",
   description: "Algorithmic trader and Techie based in Nairobi, Kenya",
   keywords:
-    "Trader, Algorithmic trader, ICT trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
+    "Trader, Algorithmic trader, ICT trader, Inner Circle Trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
   authors: [{ name: "Lenny Kioko" }],
 };
 
