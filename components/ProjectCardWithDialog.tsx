@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/dialog";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
-import { cn, isDownloadSupportedDomain, showDownloadRedirectAlert } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 
 interface ProjectCardWithDialogProps {
   image: string;
@@ -89,16 +89,6 @@ export default function ProjectCardWithDialog({
     }
   };
 
-  const handleDownloadAttempt = () => {
-    if (!isDownloadSupportedDomain()) {
-      showDownloadRedirectAlert(() => {
-        window.open('https://lennykioko.com', '_blank', 'noopener,noreferrer');
-      });
-      return false;
-    }
-    return true;
-  };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -116,16 +106,20 @@ export default function ProjectCardWithDialog({
         resource: title,
         downloadUrl: website,
         timestamp: new Date().toISOString(),
+        secret: "chyh8j89q3g4u1met4nvukpi",
       };
 
       // Save to Google Sheets via API
-      const response = await fetch('/api/save-download', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(downloadData),
-      });
+      const response = await fetch(
+        "https://lennykioko-backend.vercel.app/api/save-download",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(downloadData),
+        }
+      );
 
       if (response.ok) {
         console.log("Download data saved successfully");
@@ -151,15 +145,7 @@ export default function ProjectCardWithDialog({
       <div className="relative">
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
-            <div 
-              className="cursor-pointer"
-              onClick={(e) => {
-                if (!handleDownloadAttempt()) {
-                  e.preventDefault();
-                  e.stopPropagation();
-                }
-              }}
-            >
+            <div className="cursor-pointer">
               <Image
                 src={image}
                 alt={title}
@@ -179,7 +165,10 @@ export default function ProjectCardWithDialog({
             </DialogHeader>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-3">
-                <label htmlFor="email" className="text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="email"
+                  className="text-sm font-medium text-gray-700"
+                >
                   Email Address
                 </label>
                 <Input
@@ -191,15 +180,23 @@ export default function ProjectCardWithDialog({
                   disabled={isSubmitting}
                   className={cn(
                     "h-11 border-gray-300 focus:border-amber-400 focus:ring-amber-400/20",
-                    emailError ? "border-red-400 focus:border-red-400 focus:ring-red-400/20" : ""
+                    emailError
+                      ? "border-red-400 focus:border-red-400 focus:ring-red-400/20"
+                      : ""
                   )}
                   required
                 />
                 {emailError && (
-                  <p className="text-sm text-red-600 mt-2 font-medium">{emailError}</p>
+                  <p className="text-sm text-red-600 mt-2 font-medium">
+                    {emailError}
+                  </p>
                 )}
               </div>
-              <Button type="submit" disabled={isSubmitting} className="w-full h-11 bg-amber-500 hover:bg-amber-600 text-white font-medium">
+              <Button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full h-11 bg-amber-500 hover:bg-amber-600 text-white font-medium"
+              >
                 {isSubmitting ? (
                   "Processing..."
                 ) : (
@@ -220,16 +217,7 @@ export default function ProjectCardWithDialog({
         <div className="space-y-3">
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
-              <Button 
-                variant="outline" 
-                className="w-full justify-start"
-                onClick={(e) => {
-                  if (!handleDownloadAttempt()) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                  }
-                }}
-              >
+              <Button variant="outline" className="w-full justify-start">
                 <ExternalLink className="h-4 w-4 mr-2" />
                 <span>View Download</span>
               </Button>
@@ -243,7 +231,10 @@ export default function ProjectCardWithDialog({
               </DialogHeader>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid gap-3">
-                  <label htmlFor="email-btn" className="text-sm font-medium text-gray-700">
+                  <label
+                    htmlFor="email-btn"
+                    className="text-sm font-medium text-gray-700"
+                  >
                     Email Address
                   </label>
                   <Input
@@ -255,12 +246,16 @@ export default function ProjectCardWithDialog({
                     disabled={isSubmitting}
                     className={cn(
                       "h-11 border-gray-300 focus:border-amber-400 focus:ring-amber-400/20",
-                      emailError ? "border-red-400 focus:border-red-400 focus:ring-red-400/20" : ""
+                      emailError
+                        ? "border-red-400 focus:border-red-400 focus:ring-red-400/20"
+                        : ""
                     )}
                     required
                   />
                   {emailError && (
-                    <p className="text-sm text-red-600 mt-2 font-medium">{emailError}</p>
+                    <p className="text-sm text-red-600 mt-2 font-medium">
+                      {emailError}
+                    </p>
                   )}
                 </div>
                 <Button
