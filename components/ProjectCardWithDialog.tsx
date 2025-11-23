@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/dialog";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn, isDownloadSupportedDomain, showDownloadRedirectAlert } from "@/lib/utils";
 
 interface ProjectCardWithDialogProps {
   image: string;
@@ -89,6 +89,16 @@ export default function ProjectCardWithDialog({
     }
   };
 
+  const handleDownloadAttempt = () => {
+    if (!isDownloadSupportedDomain()) {
+      showDownloadRedirectAlert(() => {
+        window.open('https://lennykioko.com', '_blank', 'noopener,noreferrer');
+      });
+      return false;
+    }
+    return true;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -141,7 +151,15 @@ export default function ProjectCardWithDialog({
       <div className="relative">
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
-            <div className="cursor-pointer">
+            <div 
+              className="cursor-pointer"
+              onClick={(e) => {
+                if (!handleDownloadAttempt()) {
+                  e.preventDefault();
+                  e.stopPropagation();
+                }
+              }}
+            >
               <Image
                 src={image}
                 alt={title}
@@ -202,7 +220,16 @@ export default function ProjectCardWithDialog({
         <div className="space-y-3">
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
-              <Button variant="outline" className="w-full justify-start">
+              <Button 
+                variant="outline" 
+                className="w-full justify-start"
+                onClick={(e) => {
+                  if (!handleDownloadAttempt()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                  }
+                }}
+              >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 <span>View Download</span>
               </Button>
