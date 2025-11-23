@@ -235,23 +235,27 @@ const resourceSections = [
     items: [
       {
         image: "/MT4.png",
-        title: "MT4 White Mode Template",
-        website: "",
+        title: "MT4 Light Mode Template",
+        website:
+          "https://drive.google.com/file/d/1rWeACEEqnIQLbbhopucUArY_P7hBeNTt/view?usp=sharing",
       },
       {
         image: "/MT5.png",
-        title: "MT5 White Mode Template",
-        website: "",
+        title: "MT5 Light Mode Template",
+        website:
+          "https://drive.google.com/file/d/1qPu0qYJq0siqwPBqe0nsGk1TclH4tsD_/view?usp=sharing",
       },
       {
         image: "/MT4-Dark.png",
         title: "MT4 Dark Mode Template",
-        website: "",
+        website:
+          "https://drive.google.com/file/d/17o4M0lmOVYUwYiN8_mp2glCnUMk73FCj/view?usp=sharing",
       },
       {
         image: "/MT5-Dark.png",
         title: "MT5 Dark Mode Template",
-        website: "",
+        website:
+          "https://drive.google.com/file/d/1t6wh3UXGRi0BZS17QRPrtIOgcGUaTQo7/view?usp=sharing",
       },
     ],
   },
