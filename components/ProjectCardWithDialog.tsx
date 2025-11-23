@@ -118,7 +118,7 @@ export default function ProjectCardWithDialog({
             "Content-Type": "application/json",
           },
           body: JSON.stringify(downloadData),
-        }
+        },
       );
 
       if (response.ok) {
@@ -182,7 +182,7 @@ export default function ProjectCardWithDialog({
                     "h-11 border-gray-300 focus:border-amber-400 focus:ring-amber-400/20",
                     emailError
                       ? "border-red-400 focus:border-red-400 focus:ring-red-400/20"
-                      : ""
+                      : "",
                   )}
                   required
                 />
@@ -248,7 +248,7 @@ export default function ProjectCardWithDialog({
                       "h-11 border-gray-300 focus:border-amber-400 focus:ring-amber-400/20",
                       emailError
                         ? "border-red-400 focus:border-red-400 focus:ring-red-400/20"
-                        : ""
+                        : "",
                     )}
                     required
                   />
