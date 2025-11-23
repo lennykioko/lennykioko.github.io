@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { HiOutlineExternalLink } from "react-icons/hi";
+import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 
 interface ProjectCardProps {
@@ -47,7 +47,7 @@ export default function ProjectCard({
               rel="noreferrer"
               className="flex items-center space-x-2"
             >
-              <HiOutlineExternalLink className="h-4 w-4" />
+              <ExternalLink className="h-4 w-4" />
               <span>View Website</span>
             </a>
           </Button>

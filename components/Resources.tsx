@@ -1,5 +1,6 @@
 "use client";
 import ProjectCard from "./ProjectCard";
+import ProjectCardWithDialog from "./ProjectCardWithDialog";
 
 const resourceSections = [
   {
@@ -257,6 +258,12 @@ const resourceSections = [
 ];
 
 export default function Resources() {
+  // Function to check if an item requires contact form (MT4/MT5 resources with Google Drive links)
+  const requiresContact = (website: string) => {
+    const isGoogleDrive = website.includes("drive.google.com");
+    return isGoogleDrive;
+  };
+
   return (
     <section className="w-full border-b-2 border-amber-400 bg-slate-100 py-8">
       <div className="text-center text-2xl font-semibold mb-8">Resources</div>
@@ -268,13 +275,27 @@ export default function Resources() {
             </h3>
             {section.items.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {section.items.map((item, idx) => (
-                  <ProjectCard
-                    key={`${section.title}-${item.title}-${idx}`}
-                    idx={idx}
-                    {...item}
-                  />
-                ))}
+                {section.items.map((item, idx) => {
+                  const needsDialog = requiresContact(item.website);
+
+                  if (needsDialog) {
+                    return (
+                      <ProjectCardWithDialog
+                        key={`${section.title}-${item.title}-${idx}`}
+                        idx={idx}
+                        {...item}
+                      />
+                    );
+                  }
+
+                  return (
+                    <ProjectCard
+                      key={`${section.title}-${item.title}-${idx}`}
+                      idx={idx}
+                      {...item}
+                    />
+                  );
+                })}
               </div>
             ) : (
               <div className="text-center text-gray-500 italic">
