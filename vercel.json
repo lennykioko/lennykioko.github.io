@@ -1,0 +1,11 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "gh-pages": false
+    }
+  },
+  "github": {
+    "autoAlias": false
+  }
+}
