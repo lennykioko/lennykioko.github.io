@@ -28,6 +28,9 @@ jobs:
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
 
+      - name: Copy vercel.json to out
+        run: cp vercel.json ./out/vercel.json
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
