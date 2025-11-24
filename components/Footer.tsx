@@ -6,7 +6,7 @@ import {
   GrYoutube,
 } from "react-icons/gr";
 import { SiTelegram } from "react-icons/si";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 const socialLinks = [
   {
@@ -44,6 +44,12 @@ const socialLinks = [
     icon: GrInstagram,
     label: "Instagram",
     color: "text-pink-500",
+  },
+  {
+    href: "https://www.tiktok.com/@lenny_kioko",
+    icon: FaTiktok,
+    label: "TikTok",
+    color: "text-black",
   },
   {
     href: "mailto:pacentaconsultancy@gmail.com",
