@@ -113,36 +113,6 @@ const resourceSections = [
     items: [
       {
         image: "/MT5.png",
-        title: "TradeExecutor",
-        website:
-          "https://drive.google.com/file/d/18l0AhVg-g8CZy5rfVwjVneimzUyhwUTh/view?usp=sharing",
-      },
-      {
-        image: "/MT5.png",
-        title: "RecreateSL",
-        website:
-          "https://drive.google.com/file/d/1d9bs2NpJVhpgJmdktA5s_a4ffeOst6sc/view?usp=sharing",
-      },
-      {
-        image: "/MT5.png",
-        title: "RecreateSLTP",
-        website:
-          "https://drive.google.com/file/d/1AGQT_SU4XxxNWoe7EPejRNc-_Msu0exl/view?usp=sharing",
-      },
-      {
-        image: "/MT5.png",
-        title: "TakePartialMoveSLToBE",
-        website:
-          "https://drive.google.com/file/d/1nmlu6r2PZzthqZjL1zgaMy1hDXXKdu5U/view?usp=sharing",
-      },
-      {
-        image: "/MT5.png",
-        title: "CloseAll",
-        website:
-          "https://drive.google.com/file/d/14S2BhdEo6PEfI8c_iwHyMn_CsB9Y3nt-/view?usp=sharing",
-      },
-      {
-        image: "/MT5.png",
         title: "DeleteAllObjects",
         website:
           "https://drive.google.com/file/d/1-aGAhdM3Xd0qHJVTVL8ygE9jOfD5H3tw/view?usp=sharing",
@@ -154,15 +124,21 @@ const resourceSections = [
     items: [
       {
         image: "/MT5.png",
-        title: "TradeManager EA",
+        title: "TradingPanel EA",
         website:
-          "https://drive.google.com/file/d/1V1K6bMxa7I4uu7nyBvwNdyWAO8Rke3TF/view?usp=sharing",
+          "https://drive.google.com/file/d/1uKH_UdYjmMJ8JqyDPTzU6jEvAKFlVoca/view?usp=sharing",
       },
       {
         image: "/MT5.png",
-        title: "KeyLevelsAndFVGs EA",
+        title: "TradeManagerPanel EA",
         website:
-          "https://drive.google.com/file/d/1dnMF4gBtJuEEqujFonWyHuAGt2uXbzD1/view?usp=sharing",
+          "https://drive.google.com/file/d/1TF--cp35anan4opILQa58bNkdK--B1I5/view?usp=sharing",
+      },
+      {
+        image: "/MT5.png",
+        title: "KeyLevelsFVGsManagerPanel EA",
+        website:
+          "https://drive.google.com/file/d/1l0Yx9W0dH_BfFITFQpnxMumRKEpPZIRl/view?usp=sharing",
       },
       {
         image: "/MT5.png",
@@ -172,33 +148,21 @@ const resourceSections = [
       },
       {
         image: "/MT5.png",
-        title: "CheckTime EA",
-        website:
-          "https://drive.google.com/file/d/1KD_t9e0xosxkqRMQZjv9uU9MR7vifVu9/view?usp=sharing",
-      },
-      {
-        image: "/MT5.png",
         title: "TargetReacher EA",
         website:
           "https://drive.google.com/file/d/1zmtO01e6sBF1N_si7zy86RBPfHAZdhtD/view?usp=sharing",
       },
       {
         image: "/MT5.png",
-        title: "TickValue EA",
+        title: "TickValueTime EA",
         website:
-          "https://drive.google.com/file/d/1c3_PZi5uUth4nylHGfb7tOPZ_05u1RSK/view?usp=sharing",
+          "https://drive.google.com/file/d/1o-n8wCRib4PW91UMzzeqRg7ruI4vIhXv/view?usp=sharing",
       },
     ],
   },
   {
     title: "MetaTrader 4 Scripts",
     items: [
-      {
-        image: "/MT4.png",
-        title: "TradeExecutor",
-        website:
-          "https://drive.google.com/file/d/1QekLIMoBisDsUrkHSnuHWJP-vyODVKmQ/view?usp=sharing",
-      },
       {
         image: "/MT4.png",
         title: "CloseAll",
