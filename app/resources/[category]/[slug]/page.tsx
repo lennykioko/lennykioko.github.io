@@ -50,7 +50,10 @@ export default async function ResourcePage({ params }: PageProps) {
               asChild
               className="pl-0 hover:bg-transparent text-slate-600"
             >
-              <Link href="/" className="flex items-center gap-2">
+              <Link
+                href={`/#${data.category}`}
+                className="flex items-center gap-2"
+              >
                 <ArrowLeft className="h-4 w-4" />
                 Back to Resources
               </Link>

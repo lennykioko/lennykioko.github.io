@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const resourceSections = [
   {
+    id: "Education",
     title: "Education",
     items: [
       {
@@ -18,6 +19,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "Community",
     title: "Community",
     items: [
       {
@@ -33,6 +35,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "TradingView",
     title: "TradingView",
     items: [
       {
@@ -58,6 +61,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "Brokers",
     title: "Brokers I've Used",
     items: [
       {
@@ -73,6 +77,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "VPS",
     title: "VPS",
     items: [
       {
@@ -83,6 +88,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "TradeCopiers",
     title: "Trade Copiers",
     items: [
       {
@@ -98,6 +104,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "MT5",
     title: "Metatrader 5 Scripts",
     items: [
       {
@@ -108,6 +115,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "MT5",
     title: "MetaTrader 5 EAs",
     items: [
       {
@@ -143,6 +151,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "MT4",
     title: "MetaTrader 4 Scripts",
     items: [
       {
@@ -163,6 +172,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "MT4",
     title: "MetaTrader 4 EAs",
     items: [
       {
@@ -173,6 +183,7 @@ const resourceSections = [
     ],
   },
   {
+    id: "Templates",
     title: "MetaTrader Templates",
     items: [
       {
@@ -205,7 +216,11 @@ export default function Resources() {
       <div className="text-center text-2xl font-semibold mb-8">Resources</div>
       <div className="max-w-7xl mx-auto px-4">
         {resourceSections.map((section, sectionIdx) => (
-          <div key={`section-${sectionIdx}`} className="mb-12">
+          <div
+            key={`section-${sectionIdx}`}
+            id={section.id}
+            className="mb-12 scroll-mt-24"
+          >
             <h3 className="text-xl font-semibold text-center mb-6 text-gray-700">
               {section.title}
             </h3>

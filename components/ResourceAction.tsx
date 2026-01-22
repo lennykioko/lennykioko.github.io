@@ -72,14 +72,35 @@ export default function ResourceAction({
         secret: "chyh8j89q3g4u1met4nvukpi",
       };
 
-      await fetch("https://lennykioko-backend.vercel.app/api/save-download", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(downloadData),
-      });
+      const promises = [
+        fetch("https://lennykioko-backend.vercel.app/api/save-download", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(downloadData),
+        }),
+      ];
+
+      if (isPaid) {
+        const telegramMessage = {
+          message: `${email.trim()} wants to purchase ${title}`,
+          secret: "chyh8j89q3g4u1met4nvukpi",
+        };
+
+        promises.push(
+          fetch("https://lennykioko-backend.vercel.app/api/send-telegram", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(telegramMessage),
+          }),
+        );
+      }
+
+      await Promise.all(promises);
 
       setOpen(false);
-      window.open(link, "_blank", "noopener,noreferrer");
+      if (!isPaid) {
+        window.open(link, "_blank", "noopener,noreferrer");
+      }
       setEmail("");
       setEmailError("");
     } catch (error) {
