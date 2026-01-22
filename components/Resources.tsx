@@ -1,6 +1,5 @@
 "use client";
 import ProjectCard from "./ProjectCard";
-import ProjectCardWithDialog from "./ProjectCardWithDialog";
 
 const resourceSections = [
   {
@@ -9,13 +8,12 @@ const resourceSections = [
       {
         image: "/babypips.png",
         title: "BabyPips",
-        website: "https://www.babypips.com/learn/forex",
+        url: "/resources/Education/BabyPips",
       },
       {
         image: "/ict-mentorship.png",
         title: "ICT 2022 Mentorship",
-        website:
-          "https://www.youtube.com/watch?v=kt6V4ai60fI&list=PLVgHx4Z63paYiFGQ56PjTF1PGePL3r69s",
+        url: "/resources/Education/ICT2022Mentorship",
       },
     ],
   },
@@ -25,12 +23,12 @@ const resourceSections = [
       {
         image: "/myTelegram.png",
         title: "Telegram Community",
-        website: "https://t.me/TradesbyLennyKioko/",
+        url: "/resources/Community/Telegram",
       },
       {
         image: "/myYoutube.png",
         title: "Youtube Community",
-        website: "https://www.youtube.com/@TradesbyLennyKioko/",
+        url: "/resources/Community/Youtube",
       },
     ],
   },
@@ -40,28 +38,22 @@ const resourceSections = [
       {
         image: "/Daily-open-price.png",
         title: "Daily Open Price Indicator",
-        website:
-          "https://www.tradingview.com/script/iOBABiLj-Daily-Open-Price-version-1-0/",
-        code: "https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/Daily-Open-Price.pine",
+        url: "/resources/TradingView/DailyOpenPrice",
       },
       {
         image: "/ICT-sessions.png",
         title: "ICT Sessions Indicator",
-        website:
-          "https://www.tradingview.com/script/0unDD4MW-ICT-Sessions-version-1-0/",
-        code: "https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/ICT-Sessions.pine",
+        url: "/resources/TradingView/ICTSessions",
       },
       {
         image: "/ICT-silver-bullet-sessions.png",
         title: "ICT Silver Bullet Sessions Indicator",
-        website:
-          "https://www.tradingview.com/script/hCC7WbWf-ICT-Silver-bullet-sessions-version-1-0/",
-        code: "https://github.com/lennykioko/ICT/blob/main/Old/Lenny/PineScript/ICT-Silver-Bullet.pine",
+        url: "/resources/TradingView/ICTSilverBulletSessions",
       },
       {
         image: "/fvg-nephew-sam.png",
         title: "FVG (Nephew_Sam_)",
-        website: "https://www.tradingview.com/script/G8b8t2er-FVG-Nephew-Sam/",
+        url: "/resources/TradingView/FVGNephewSam",
       },
     ],
   },
@@ -71,13 +63,12 @@ const resourceSections = [
       {
         image: "/pepperstone-new.png",
         title: "Pepperstone",
-        website:
-          "https://trk.pepperstonepartners.com/aff_c?offer_id=367&aff_id=41245/",
+        url: "/resources/Brokers/Pepperstone",
       },
       {
         image: "/HFM.png",
         title: "HFM",
-        website: "https://www.hfm.com/ke/en/?refid=30473755",
+        url: "/resources/Brokers/HFM",
       },
     ],
   },
@@ -87,7 +78,7 @@ const resourceSections = [
       {
         image: "/forexvps.png",
         title: "ForexVPS",
-        website: " https://portal.forexvps.net/raf.php?raf=35039",
+        url: "/resources/VPS/ForexVPS",
       },
     ],
   },
@@ -97,14 +88,12 @@ const resourceSections = [
       {
         image: "/fxblue-copier-MT4.png",
         title: "FX Blue Copier MT4",
-        website:
-          "https://drive.google.com/file/d/1crGpp9I_KhHz4AG7aQsCdjXTV4IU_YT2/view?usp=sharing",
+        url: "/resources/TradeCopiers/FXBlueCopierMT4",
       },
       {
         image: "/fxblue-copier-MT5.png",
         title: "FX Blue Copier MT5",
-        website:
-          "https://drive.google.com/file/d/1ZvIrzkSpkwsAUy-ZZ218p6elvmNDsf-l/view?usp=sharing",
+        url: "/resources/TradeCopiers/FXBlueCopierMT5",
       },
     ],
   },
@@ -114,8 +103,7 @@ const resourceSections = [
       {
         image: "/MT5.png",
         title: "DeleteAllObjects",
-        website:
-          "https://drive.google.com/file/d/1-aGAhdM3Xd0qHJVTVL8ygE9jOfD5H3tw/view?usp=sharing",
+        url: "/resources/MT5/DeleteAllObjectsMT5",
       },
     ],
   },
@@ -125,38 +113,32 @@ const resourceSections = [
       {
         image: "/MT5.png",
         title: "TradingPanel EA",
-        website:
-          "https://drive.google.com/file/d/1uKH_UdYjmMJ8JqyDPTzU6jEvAKFlVoca/view?usp=sharing",
+        url: "/resources/MT5/TradingPanelEA",
       },
       {
         image: "/MT5.png",
         title: "TradeManagerPanel EA",
-        website:
-          "https://drive.google.com/file/d/1TF--cp35anan4opILQa58bNkdK--B1I5/view?usp=sharing",
+        url: "/resources/MT5/TradeManagerPanelEA",
       },
       {
         image: "/MT5.png",
         title: "KeyLevelsFVGsManagerPanel EA",
-        website:
-          "https://drive.google.com/file/d/1l0Yx9W0dH_BfFITFQpnxMumRKEpPZIRl/view?usp=sharing",
+        url: "/resources/MT5/KeyLevelsFVGsManagerPanelEA",
       },
       {
         image: "/MT5.png",
         title: "CheckNews EA",
-        website:
-          "https://drive.google.com/file/d/1DvTQTC3N20tufY5Ay_VfBCXfQdd3gWc-/view?usp=sharing",
+        url: "/resources/MT5/CheckNewsEA",
       },
       {
         image: "/MT5.png",
         title: "TargetReacher EA",
-        website:
-          "https://drive.google.com/file/d/1zmtO01e6sBF1N_si7zy86RBPfHAZdhtD/view?usp=sharing",
+        url: "/resources/MT5/TargetReacherEAMT5",
       },
       {
         image: "/MT5.png",
         title: "TickValueTime EA",
-        website:
-          "https://drive.google.com/file/d/1o-n8wCRib4PW91UMzzeqRg7ruI4vIhXv/view?usp=sharing",
+        url: "/resources/MT5/TickValueTimeEA",
       },
     ],
   },
@@ -166,20 +148,17 @@ const resourceSections = [
       {
         image: "/MT4.png",
         title: "CloseAll",
-        website:
-          "https://drive.google.com/file/d/10xGFL5fOR69kcUxahRuWOEllUkEQM7R9/view?usp=sharing",
+        url: "/resources/MT4/CloseAll",
       },
       {
         image: "/MT4.png",
         title: "DeleteAllObjects",
-        website:
-          "https://drive.google.com/file/d/1x2-0JdPnBaJFueDbnbe1sv8YFzHQk9Oh/view?usp=sharing",
+        url: "/resources/MT4/DeleteAllObjectsMT4",
       },
       {
         image: "/MT4.png",
         title: "TickValue",
-        website:
-          "https://drive.google.com/file/d/1rAYlrE1SCy0m9s4xeozHg7EYQaCc1nsJ/view?usp=sharing",
+        url: "/resources/MT4/TickValue",
       },
     ],
   },
@@ -189,8 +168,7 @@ const resourceSections = [
       {
         image: "/MT4.png",
         title: "TargetReacher EA",
-        website:
-          "https://drive.google.com/file/d/1GVV1-_Ea75h6TcL-9nbvsdfEt23HdUfU/view?usp=sharing",
+        url: "/resources/MT4/TargetReacherEAMT4",
       },
     ],
   },
@@ -200,38 +178,28 @@ const resourceSections = [
       {
         image: "/MT4.png",
         title: "MT4 Light Mode Template",
-        website:
-          "https://drive.google.com/file/d/1rWeACEEqnIQLbbhopucUArY_P7hBeNTt/view?usp=sharing",
+        url: "/resources/Templates/MT4LightMode",
       },
       {
         image: "/MT5.png",
         title: "MT5 Light Mode Template",
-        website:
-          "https://drive.google.com/file/d/1qPu0qYJq0siqwPBqe0nsGk1TclH4tsD_/view?usp=sharing",
+        url: "/resources/Templates/MT5LightMode",
       },
       {
         image: "/MT4-Dark.png",
         title: "MT4 Dark Mode Template",
-        website:
-          "https://drive.google.com/file/d/17o4M0lmOVYUwYiN8_mp2glCnUMk73FCj/view?usp=sharing",
+        url: "/resources/Templates/MT4DarkMode",
       },
       {
         image: "/MT5-Dark.png",
         title: "MT5 Dark Mode Template",
-        website:
-          "https://drive.google.com/file/d/1t6wh3UXGRi0BZS17QRPrtIOgcGUaTQo7/view?usp=sharing",
+        url: "/resources/Templates/MT5DarkMode",
       },
     ],
   },
 ];
 
 export default function Resources() {
-  // Function to check if an item requires contact form (resources with Google Drive links)
-  const requiresContact = (website: string) => {
-    const isGoogleDrive = website.includes("drive.google.com");
-    return isGoogleDrive;
-  };
-
   return (
     <section className="w-full border-b-2 border-amber-400 bg-slate-100 py-8">
       <div className="text-center text-2xl font-semibold mb-8">Resources</div>
@@ -244,23 +212,12 @@ export default function Resources() {
             {section.items.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {section.items.map((item, idx) => {
-                  const needsDialog = requiresContact(item.website);
-
-                  if (needsDialog) {
-                    return (
-                      <ProjectCardWithDialog
-                        key={`${section.title}-${item.title}-${idx}`}
-                        idx={idx}
-                        {...item}
-                      />
-                    );
-                  }
-
                   return (
                     <ProjectCard
                       key={`${section.title}-${item.title}-${idx}`}
                       idx={idx}
                       {...item}
+                      url={item.url}
                     />
                   );
                 })}
