@@ -16,10 +16,15 @@ export default function ProjectCard({
   url,
   idx,
 }: ProjectCardProps) {
+  const isExternal = url.startsWith("http");
+  const linkProps = isExternal
+    ? { target: "_blank", rel: "noopener noreferrer" }
+    : {};
+
   return (
     <Card className="w-full max-w-sm mx-auto border-amber-400 hover:shadow-lg transition-shadow py-0">
       <div className="relative">
-        <Link href={url} aria-label={`Visit ${title} page`}>
+        <Link href={url} aria-label={`Visit ${title} page`} {...linkProps}>
           <Image
             src={image}
             alt={title}
@@ -36,7 +41,11 @@ export default function ProjectCard({
 
         <div className="space-y-3">
           <Button variant="outline" className="w-full justify-start" asChild>
-            <Link href={url} className="flex items-center space-x-2 h-4 w-4">
+            <Link
+              href={url}
+              className="flex items-center space-x-2 h-4 w-4"
+              {...linkProps}
+            >
               <span>Learn More</span>
             </Link>
           </Button>

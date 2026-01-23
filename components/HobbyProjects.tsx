@@ -2,16 +2,14 @@ import ProjectCard from "./ProjectCard";
 interface Project {
   image: string;
   title: string;
-  website: string;
-  code: string;
+  url: string;
 }
 
 const projects: Project[] = [
   {
     image: "/bible.png",
     title: "Bible In a Year",
-    website: "https://bible-in-a-year.vercel.app/",
-    code: "https://github.com/lennykioko/bible-in-a-year",
+    url: "https://bible-in-a-year.vercel.app/",
   },
 ];
 
