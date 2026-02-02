@@ -119,17 +119,17 @@ const resourceSections = [
     title: "MetaTrader 5 EAs",
     items: [
       {
-        image: "/MT5.png",
+        image: "/TradingPanel.png",
         title: "TradingPanel EA",
         url: "/resources/MT5/TradingPanelEA",
       },
       {
-        image: "/MT5.png",
+        image: "/TradeManagerPanel.png",
         title: "TradeManagerPanel EA",
         url: "/resources/MT5/TradeManagerPanelEA",
       },
       {
-        image: "/MT5.png",
+        image: "/KeyLevelsFVGsManagerPanel.png",
         title: "KeyLevelsFVGsManagerPanel EA",
         url: "/resources/MT5/KeyLevelsFVGsManagerPanelEA",
       },
