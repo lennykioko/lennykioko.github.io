@@ -1,5 +1,6 @@
 import { resourcesData } from "@/lib/resourcesData";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
@@ -82,6 +83,18 @@ export default async function ResourcePage({ params }: PageProps) {
             <h2 className="text-2xl font-semibold text-amber-500 mb-6">
               {data.subtitle}
             </h2>
+
+            {data.image && (
+              <div className="w-full mb-8 rounded-lg overflow-hidden border border-slate-200">
+                <Image
+                  src={data.image}
+                  alt={data.title}
+                  width={1200}
+                  height={675}
+                  className="w-full h-auto object-contain bg-slate-100"
+                />
+              </div>
+            )}
 
             <div
               className="prose prose-slate max-w-none text-slate-700 space-y-4"
