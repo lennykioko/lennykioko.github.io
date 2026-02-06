@@ -16,7 +16,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "BabyPips",
     subtitle: "Learn Forex Trading for Beginners",
     videoId: "",
-    image: "",
+    image: "/babypips.png",
     link: "https://www.babypips.com/learn/forex",
     description: `
       <p>The School of Pipsology by BabyPips is the internet’s most popular free course for learning how to trade the Forex market. It is designed to take you from a complete beginner to a knowledgeable trader, breaking down complex financial concepts into easy-to-understand lessons.</p>
@@ -35,7 +35,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "ICT 2022 Mentorship",
     subtitle: "Learn ICT Concepts (Intermediate & Advanced)",
     videoId: "kt6V4ai60fI",
-    image: "",
+    image: "/ict-mentorship.png",
     link: "https://www.youtube.com/watch?v=kt6V4ai60fI&list=PLVgHx4Z63paYiFGQ56PjTF1PGePL3r69s",
     description: `
       <p>The ICT 2022 Mentorship is a comprehensive, free educational series by Michael J. Huddleston (The Inner Circle Trader). It focuses on high-precision price action trading without indicators, teaching students how to read algorithmic market delivery. While the series uses Index Futures (ES and NQ) for examples, the concepts are universally applicable to Forex, Crypto, and Commodities.</p>
@@ -61,7 +61,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     subtitle: "Join the Forex Trading Community on Telegram",
     videoId: "",
     link: "https://t.me/lennykioko",
-    image: "",
+    image: "/myTelegram.png",
     description: `
       <p>Join my official Telegram channel to stay connected with the trading community. This is the primary hub where I share real-time updates, market perspectives, and announcements regarding new tools or educational content.</p>
 
@@ -78,7 +78,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "Youtube Community",
     subtitle: "Subscribe to the Channel on YouTube",
     videoId: "DmpgCg__VJM",
-    image: "",
+    image: "/myYoutube.png",
     link: "https://www.youtube.com/@lennykioko",
     description: `
       <p>Subscribe to the YouTube channel for visual learning and in-depth breakdowns. This is where I demonstrate how to use the resources provided on this site and share educational content to improve your trading.</p>
@@ -98,7 +98,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "Daily Open Price Indicator",
     subtitle: "Visualize Daily Open Prices",
     videoId: "",
-    image: "",
+    image: "/Daily-open-price.png",
     link: "https://www.tradingview.com/script/iOBABiLj-Daily-Open-Price-version-1-0/",
     description: `
       <p>The Daily Open Price indicator is a clean, minimal tool designed for day traders who use the daily opening price as a key reference level. It automatically plots a horizontal line across your chart to mark exactly where price opened for the current trading day.</p>
@@ -120,7 +120,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "ICT Sessions Indicator",
     subtitle: "Visualize Market Sessions",
     videoId: "",
-    image: "",
+    image: "/ICT-sessions.png",
     link: "https://www.tradingview.com/script/0unDD4MW-ICT-Sessions-version-1-0/",
     description: `
       <p>The ICT Sessions indicator is a must-have for traders following Inner Circle Trader (ICT) concepts. It automatically visualizes the key trading sessions—Asia (Tokyo), London, and New York—by drawing clear boxes or vertical lines around their specific time windows.</p>
@@ -142,7 +142,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "ICT Silver Bullet Sessions Indicator",
     subtitle: "Visualize ICT Silver Bullet Sessions and Macros",
     videoId: "",
-    image: "",
+    image: "/ICT-silver-bullet-sessions.png",
     link: "https://www.tradingview.com/script/hCC7WbWf-ICT-Silver-bullet-sessions-version-1-0/",
     description: `
       <p>The ICT Silver Bullet Sessions indicator takes the guesswork out of time-based trading by automatically highlighting the specific "Silver Bullet" windows. It visually marks the 3:00-4:00 AM, 10:00-11:00 AM, and 2:00-3:00 PM (NY Time) intervals directly on your chart.</p>
@@ -164,7 +164,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "FVG (Nephew_Sam_)",
     subtitle: "Visualize Fair Value Gaps",
     videoId: "",
-    image: "",
+    image: "/fvg-nephew-sam.png",
     link: "https://www.tradingview.com/script/G8b8t2er-FVG-Nephew-Sam/",
     description: `
       <p>The FVG (Nephew_Sam_) indicator is a highly popular tool for identifying Fair Value Gaps (Imbalances) on any chart. It automatically highlights inefficient price action, making it easier to spot potential entry, exit, and rebalancing areas.</p>
@@ -188,7 +188,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "Pepperstone",
     subtitle: "Reliable Forex Broker",
     videoId: "",
-    image: "",
+    image: "/pepperstone-new.png",
     link: "https://trk.pepperstonepartners.com/aff_c?offer_id=367&aff_id=41245/",
     description: `
      <p>Pepperstone is a globally regulated broker known for its lightning-fast execution and raw spread pricing. It is an excellent choice for traders who use automated strategies (EAs) or scalping techniques where speed and low costs are critical.</p>
@@ -210,7 +210,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "HFM",
     subtitle: "Reliable Forex Broker",
     videoId: "",
-    image: "",
+    image: "/HFM.png",
     link: "https://www.hfm.com/ke/en/?refid=30473755",
     description: `
       <p>HFM is a versatile broker offering diverse account types tailored to different trading styles. With a strong local presence in Kenya, they provide seamless access to global markets with one of the most convenient funding methods available.</p>
@@ -234,7 +234,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "ForexVPS",
     subtitle: "Low Latency Trading VPS",
     videoId: "",
-    image: "",
+    image: "/forexvps.png",
     link: "https://portal.forexvps.net/raf.php?raf=35039",
     description: `
       <p>ForexVPS is my recommended Virtual Private Server provider for serious algorithmic trading. It offers ultra-low latency connections located directly next to major broker servers, ensuring your expert advisors run 24/7 with lightning-fast execution speeds and zero internet interruptions.</p>
@@ -258,7 +258,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "FX Blue Copier MT4",
     subtitle: "Trade Copier for MT4",
     videoId: "",
-    image: "",
+    image: "/fxblue-copier-MT4.png",
     link: "https://drive.google.com/file/d/1crGpp9I_KhHz4AG7aQsCdjXTV4IU_YT2/view?usp=sharing",
     description: `
       <p>The FX Blue Personal Trade Copier is a widely used tool for mirroring trades between multiple MetaTrader accounts running on the same computer. It is designed for traders who manage multiple accounts and need fast, reliable execution without the latency of internet-based copiers.</p>
@@ -281,7 +281,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "FX Blue Copier MT5",
     subtitle: "Trade Copier for MT5",
     videoId: "",
-    image: "",
+    image: "/fxblue-copier-MT5.png",
     link: "https://drive.google.com/file/d/1ZvIrzkSpkwsAUy-ZZ218p6elvmNDsf-l/view?usp=sharing",
     description: `
       <p>The FX Blue Personal Trade Copier is a widely used tool for mirroring trades between multiple MetaTrader accounts running on the same computer. It is designed for traders who manage multiple accounts and need fast, reliable execution without the latency of internet-based copiers.</p>
@@ -306,7 +306,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "DeleteAllObjects Script",
     subtitle: "Quickly delete all chart objects",
     videoId: "",
-    image: "",
+    image: "/MT5.png",
     link: "https://drive.google.com/file/d/1-aGAhdM3Xd0qHJVTVL8ygE9jOfD5H3tw/view?usp=sharing",
     description: `
       <p>The DeleteAllObjects Script is a simple but powerful workflow enhancer designed to clean up your charts instantly. With a single action, it wipes all lines, shapes, and analysis tools, giving you a fresh canvas immediately.</p>
@@ -405,7 +405,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "CheckNews EA",
     subtitle: "News Checker for MT5",
     videoId: "",
-    image: "",
+    image: "/MT5.png",
     link: "https://drive.google.com/file/d/1DvTQTC3N20tufY5Ay_VfBCXfQdd3gWc-/view?usp=sharing",
     description: `
       <p>The CheckNews EA acts as your automated economic calendar assistant directly on your MetaTrader 5 chart. It monitors upcoming high-impact financial news and holidays, ensuring you never get caught off-guard by market-moving events while you trade.</p>
@@ -427,7 +427,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "TargetReacher EA",
     subtitle: "Close all trades instantly when target equity reached for MT5",
     videoId: "",
-    image: "",
+    image: "/MT5.png",
     link: "https://drive.google.com/file/d/1zmtO01e6sBF1N_si7zy86RBPfHAZdhtD/view?usp=sharing",
     description: `
       <p>The TargetReacher EA is an essential utility for prop firm traders and disciplined investors. It actively monitors your account equity and automatically secures your profits the moment your specific financial target is hit.</p>
@@ -449,7 +449,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "TickValueTime EA",
     subtitle: "Display tick value & time",
     videoId: "",
-    image: "",
+    image: "/MT5.png",
     link: "https://drive.google.com/file/d/1o-n8wCRib4PW91UMzzeqRg7ruI4vIhXv/view?usp=sharing",
     description: `
       <p>The TickValueTime EA provides a real-time informational dashboard for any instrument you are trading. It instantly calculates and displays critical symbol details like Tick Value and Contract Size, helping you make informed risk calculations on the fly.</p>
@@ -473,7 +473,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "CloseAll Script",
     subtitle: "Close all positions instantly",
     videoId: "",
-    image: "",
+    image: "/MT4.png",
     link: "https://drive.google.com/file/d/10xGFL5fOR69kcUxahRuWOEllUkEQM7R9/view?usp=sharing",
     description: `
       <p>The CloseAll Script is a versatile order management tool designed to give you full control over closing positions on MetaTrader 4. With flexible filtering options, you can close specific groups of orders instantly with a single execution.</p>
@@ -495,7 +495,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "DeleteAllObjects Script",
     subtitle: "Quickly delete all chart objects",
     videoId: "",
-    image: "",
+    image: "/MT4.png",
     link: "https://drive.google.com/file/d/1x2-0JdPnBaJFueDbnbe1sv8YFzHQk9Oh/view?usp=sharing",
     description: `
       <p>The DeleteAllObjects Script is a simple but powerful workflow enhancer designed to clean up your charts instantly. With a single action, it wipes all lines, shapes, and analysis tools, giving you a fresh canvas immediately.</p>
@@ -516,7 +516,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "TickValue Script",
     subtitle: "Display tick value",
     videoId: "",
-    image: "",
+    image: "/MT4.png",
     link: "https://drive.google.com/file/d/1rAYlrE1SCy0m9s4xeozHg7EYQaCc1nsJ/view?usp=sharing",
     description: `
       <p>The TickValue Script provides a real-time informational display for any instrument you are trading. It instantly calculates and shows critical symbol details like Tick Value and Spread, helping you make informed risk calculations on the fly.</p>
@@ -540,7 +540,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "TargetReacher EA",
     subtitle: "Close all trades instantly when target equity reached for MT4",
     videoId: "",
-    image: "",
+    image: "/MT4.png",
     link: "https://drive.google.com/file/d/1GVV1-_Ea75h6TcL-9nbvsdfEt23HdUfU/view?usp=sharing",
     description: `
       <p>The TargetReacher EA is an essential utility for prop firm traders and disciplined investors on MetaTrader 4. It actively monitors your account equity and automatically secures your profits instantly when your financial target is hit.</p>
@@ -564,7 +564,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "MT5 Light Mode Template",
     subtitle: "Clean light theme for MT5",
     videoId: "",
-    image: "",
+    image: "/MT5.png",
     link: "https://drive.google.com/file/d/1qPu0qYJq0siqwPBqe0nsGk1TclH4tsD_/view?usp=sharing",
     description: `
       <p>The LightTemplateMT5 is a professionally designed chart template with a bright color scheme optimized for daylight trading conditions on MetaTrader 5. It provides crisp, clear visuals that remain easy to read in well-lit environments or outdoor settings.</p>
@@ -586,7 +586,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "MT4 Light Mode Template",
     subtitle: "Clean light theme for MT4",
     videoId: "",
-    image: "",
+    image: "/MT4.png",
     link: "https://drive.google.com/file/d/1rWeACEEqnIQLbbhopucUArY_P7hBeNTt/view?usp=sharing",
     description: `
       <p>The LightTemplateMT4 is a professionally designed chart template with a bright color scheme optimized for daylight trading conditions. It provides crisp, clear visuals that remain easy to read in well-lit environments or outdoor settings.</p>
@@ -608,7 +608,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "MT5 Dark Mode Template",
     subtitle: "Professional dark theme for MT5",
     videoId: "",
-    image: "",
+    image: "/MT5-Dark.png",
     link: "https://drive.google.com/file/d/1t6wh3UXGRi0BZS17QRPrtIOgcGUaTQo7/view?usp=sharing",
     description: `
       <p>The DarkTemplateMT5 is a professionally designed chart template with a dark color scheme optimized for reduced eye strain during extended trading sessions on MetaTrader 5. It provides clean visuals with high contrast elements that make price action and analysis tools stand out clearly.</p>
@@ -630,7 +630,7 @@ export const resourcesData: Record<string, ResourceContent> = {
     title: "MT4 Dark Mode Template",
     subtitle: "Professional dark theme for MT4",
     videoId: "",
-    image: "",
+    image: "/MT4-Dark.png",
     link: "https://drive.google.com/file/d/17o4M0lmOVYUwYiN8_mp2glCnUMk73FCj/view?usp=sharing",
     description: `
       <p>The DarkTemplateMT4 is a professionally designed chart template with a dark color scheme optimized for reduced eye strain during extended trading sessions. It provides clean visuals with high contrast elements that make price action and analysis tools stand out clearly.</p>
