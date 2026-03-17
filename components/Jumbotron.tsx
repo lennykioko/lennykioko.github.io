@@ -20,7 +20,7 @@ export default function Jumbotron() {
         <ImQuotesLeft className="mr-3 mb-3 h-6 w-6 self-start text-amber-400" />
         <div className="text-center space-y-2">
           <p>Hi 👋, I am Lenny.</p>
-          <p className="font-semibold">Algorithmic Trader | Techie</p>
+          <p className="font-semibold">Software Engineer | Financial Technology</p>
           <p className="text-gray-600">Ex-Microsoft | Ex-Andela</p>
         </div>
         <ImQuotesRight className="ml-3 mt-3 h-6 w-6 self-end text-amber-400" />

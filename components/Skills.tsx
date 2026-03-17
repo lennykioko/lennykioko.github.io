@@ -3,25 +3,20 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const skillCategories = [
   {
-    title: "Trading Skills",
-    skills: [
-      "ICT Concepts",
-      "SMC Concepts",
-      "Algorithmic Trading",
-      "Trading Psychology",
-    ],
+    title: "Frontend",
+    skills: ["React", "Next.js", "React Native", "TypeScript"],
   },
   {
-    title: "Trading Tools",
-    skills: ["TradingView", "MetaTrader 4", "MetaTrader 5", "cTrader"],
+    title: "Backend & Languages",
+    skills: ["Python", "Node.js", "Pine Script", "MQL4 & MQL5"],
   },
   {
-    title: "Programming",
-    skills: ["Pine Script", "MQL4 & MQL5", "Python", "TypeScript"],
+    title: "Platforms & Tools",
+    skills: ["TradingView", "MetaTrader 4", "MetaTrader 5", "cTrader", "VsCode"],
   },
   {
-    title: "Other",
-    skills: ["VPS", "Docker", "Git & GitHub", "VsCode"],
+    title: "DevOps",
+    skills: ["Docker", "Git & GitHub", "CI/CD", "VPS"],
   },
 ];
 

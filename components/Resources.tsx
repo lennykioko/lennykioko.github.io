@@ -3,40 +3,8 @@ import ProjectCard from "./ProjectCard";
 
 const resourceSections = [
   {
-    id: "Education",
-    title: "Education",
-    items: [
-      {
-        image: "/babypips.png",
-        title: "BabyPips",
-        url: "/resources/Education/BabyPips",
-      },
-      {
-        image: "/ict-mentorship.png",
-        title: "ICT 2022 Mentorship",
-        url: "/resources/Education/ICT2022Mentorship",
-      },
-    ],
-  },
-  {
-    id: "Community",
-    title: "Community",
-    items: [
-      {
-        image: "/myTelegram.png",
-        title: "Telegram Community",
-        url: "/resources/Community/Telegram",
-      },
-      {
-        image: "/myYoutube.png",
-        title: "Youtube Community",
-        url: "/resources/Community/Youtube",
-      },
-    ],
-  },
-  {
     id: "TradingView",
-    title: "TradingView",
+    title: "TradingView Indicators",
     items: [
       {
         image: "/Daily-open-price.png",
@@ -57,49 +25,6 @@ const resourceSections = [
         image: "/fvg-nephew-sam.png",
         title: "FVG (Nephew_Sam_)",
         url: "/resources/TradingView/FVGNephewSam",
-      },
-    ],
-  },
-  {
-    id: "Brokers",
-    title: "Brokers I've Used",
-    items: [
-      {
-        image: "/pepperstone-new.png",
-        title: "Pepperstone",
-        url: "/resources/Brokers/Pepperstone",
-      },
-      {
-        image: "/HFM.png",
-        title: "HFM",
-        url: "/resources/Brokers/HFM",
-      },
-    ],
-  },
-  {
-    id: "VPS",
-    title: "VPS",
-    items: [
-      {
-        image: "/forexvps.png",
-        title: "ForexVPS",
-        url: "/resources/VPS/ForexVPS",
-      },
-    ],
-  },
-  {
-    id: "TradeCopiers",
-    title: "Trade Copiers",
-    items: [
-      {
-        image: "/fxblue-copier-MT4.png",
-        title: "FX Blue Copier MT4",
-        url: "/resources/TradeCopiers/FXBlueCopierMT4",
-      },
-      {
-        image: "/fxblue-copier-MT5.png",
-        title: "FX Blue Copier MT5",
-        url: "/resources/TradeCopiers/FXBlueCopierMT5",
       },
     ],
   },

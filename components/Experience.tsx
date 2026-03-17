@@ -11,8 +11,8 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     image: "/cityzen.jpg",
-    title: "Algorithmic Trader",
-    subTitle: "The Markets",
+    title: "Software Engineer",
+    subTitle: "Financial Technology",
     date: "June 2019 - Present",
     description: "Nairobi, Kenya",
   },

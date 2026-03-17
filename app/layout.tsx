@@ -10,10 +10,11 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Lenny Kioko - Algorithmic Trader & Techie",
-  description: "Algorithmic trader and Techie based in Nairobi, Kenya",
+  title: "Lenny Kioko - Software Engineer | Financial Technology",
+  description:
+    "Software Engineer & Financial Technology specialist based in Nairobi, Kenya",
   keywords:
-    "Trader, Algorithmic trader, ICT trader, Inner Circle Trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
+    "Software Engineer, Financial Technology, FinTech, React, Next.js, React Native, TypeScript, Python, Pine Script, MetaTrader, TradingView, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
   authors: [{ name: "Lenny Kioko" }],
 };
 

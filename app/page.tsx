@@ -9,9 +9,10 @@ import Skills from "../components/Skills";
 export const metadata: Metadata = {
   metadataBase: new URL("https://lennykioko.com"),
   title: "Lenny Kioko",
-  description: "Algorithmic trader & Techie based in Nairobi, Kenya",
+  description:
+    "Software Engineer & Financial Technology specialist based in Nairobi, Kenya",
   keywords:
-    "Trader, Algorithmic trader, ICT trader, Inner Circle Trader, Trading, Forex, Nasdaq, US100, US500, S&P500, GER40, FTSE, UK100, Futures, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
+    "Software Engineer, Financial Technology, FinTech, React, Next.js, React Native, TypeScript, Python, Pine Script, MetaTrader, TradingView, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
   openGraph: {
     images: [
       {
