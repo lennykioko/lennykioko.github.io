@@ -3,6 +3,17 @@ import ProjectCard from "./ProjectCard";
 
 const resourceSections = [
   {
+    id: "SaaS",
+    title: "SaaS",
+    items: [
+      {
+        image: "/KweliVote.png",
+        title: "KweliVote",
+        url: "https://kwelivote.com",
+      },
+    ],
+  },
+  {
     id: "TradingView",
     title: "TradingView Indicators",
     items: [
