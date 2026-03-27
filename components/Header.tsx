@@ -3,6 +3,7 @@ import { SiTelegram } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdWork, MdSportsEsports } from "react-icons/md";
+import { TbChartCandle } from "react-icons/tb";
 import Link from "next/link";
 
 const navigationLinks = [
@@ -16,6 +17,12 @@ const navigationLinks = [
     href: "/career",
     icon: MdWork,
     label: "Career",
+    color: "text-gray-700 hover:text-amber-500",
+  },
+  {
+    href: "/trading",
+    icon: TbChartCandle,
+    label: "Trading",
     color: "text-gray-700 hover:text-amber-500",
   },
   {

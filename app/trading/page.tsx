@@ -1,17 +1,18 @@
 import { Metadata } from "next";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Jumbotron from "../components/Jumbotron";
-import Resources from "../components/Resources";
-import Skills from "../components/Skills";
+import Disclaimer from "../../components/Disclaimer";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Jumbotron from "../../components/Jumbotron";
+import TradingResources from "../../components/TradingResources";
+import Skills from "../../components/Skills";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lennykioko.com"),
-  title: "Lenny Kioko",
+  title: "Lenny Kioko | Trading",
   description:
     "Software Engineer & Financial Technology specialist based in Nairobi, Kenya",
   keywords:
-    "Software Engineer, Financial Technology, FinTech, React, Next.js, React Native, TypeScript, Python, Pine Script, MetaTrader, TradingView, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
+    "Software Engineer, Financial Technology, FinTech, Pine Script, MetaTrader, TradingView, Stocks, Shares, Trading, Forex, Nairobi, Kenya",
   openGraph: {
     images: [
       {
@@ -24,15 +25,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Home() {
+export default function Trading() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-black">
       <Header />
       <main className="w-full flex flex-col">
         <Jumbotron />
         <Skills />
-        <Resources />
+        <TradingResources />
       </main>
+      <Disclaimer />
       <Footer />
     </div>
   );
