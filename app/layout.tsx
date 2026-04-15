@@ -10,12 +10,22 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Lenny Kioko - Software Engineer | Financial Technology",
+  metadataBase: new URL("https://lennykioko.com"),
+  title: "Lenny Kioko",
   description:
     "Software Engineer & Financial Technology specialist based in Nairobi, Kenya",
-  keywords:
-    "Software Engineer, Financial Technology, FinTech, React, Next.js, React Native, TypeScript, Python, Pine Script, MetaTrader, TradingView, Stocks, Shares, Mentor, Coach, Consultant, Techie, Nairobi, Kenya",
-  authors: [{ name: "Lenny Kioko" }],
+  alternates: { canonical: "https://lennykioko.com" },
+  robots: { index: false, follow: true },
+  openGraph: {
+    images: [
+      {
+        url: "/cityzen.jpg",
+        width: 1024,
+        height: 1024,
+        alt: "Lenny Kioko",
+      },
+    ],
+  },
 };
 
 export const viewport: Viewport = {
